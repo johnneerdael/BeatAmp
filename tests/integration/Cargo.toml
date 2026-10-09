@@ -1,0 +1,11 @@
+[package]
+name = "preset-integration-tests"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+[dev-dependencies]
+milk-import = { path = "../../crates/milk-import" }
+tempfile = "3"
+[[test]]
+name = "corpus_identity"
+path = "corpus_identity.rs"

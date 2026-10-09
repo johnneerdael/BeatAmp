@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="safe_horizontal">16dp</dimen>
+    <dimen name="safe_vertical">16dp</dimen>
+    <dimen name="panel_width">320dp</dimen>
+    <dimen name="panel_radius">16dp</dimen>
+    <dimen name="row_radius">8dp</dimen>
+</resources>

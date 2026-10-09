@@ -1,0 +1,15 @@
+[package]
+name = "milk-compile"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+[dependencies]
+effect-model = { path = "../effect-model" }
+milk-import = { path = "../milk-import" }
+serde.workspace = true
+serde_json.workspace = true
+logos.workspace = true
+anyhow.workspace = true
+naga.workspace = true
+[dev-dependencies]
+effect-runtime = { path = "../effect-runtime" }

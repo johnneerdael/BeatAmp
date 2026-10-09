@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ProjectM-TV panel composition adapted for Beatamp, LGPL-2.1, 2026-10-09. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/visualizer_root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#000000" android:keepScreenOn="true">
+    <View android:id="@+id/touch_surface" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:clickable="true" android:focusable="false" android:contentDescription="Open Beatamp controls" />
+    <LinearLayout android:id="@+id/scene_overlay" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="top|start" android:layout_marginStart="@dimen/safe_horizontal"
+        android:layout_marginTop="@dimen/safe_vertical" android:padding="16dp"
+        android:background="@drawable/bg_pill" android:orientation="vertical" android:visibility="gone">
+        <TextView style="@style/Overlay.Caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Beatamp" />
+        <TextView android:id="@+id/scene_overlay_name" style="@style/Overlay.Title" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:maxWidth="420dp" android:text="Loading visual…" />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/control_panel" android:layout_width="@dimen/panel_width" android:layout_height="match_parent"
+        android:layout_gravity="top|end" android:layout_marginTop="@dimen/safe_vertical" android:layout_marginBottom="@dimen/safe_vertical"
+        android:layout_marginEnd="@dimen/safe_horizontal" android:visibility="gone" android:orientation="vertical"
+        android:background="@drawable/bg_overlay_panel" android:clipToOutline="true">
+        <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
+            android:fillViewport="false" android:clipToPadding="true" android:overScrollMode="never" android:scrollbarStyle="insideInset">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"
+            android:padding="16dp">
+            <TextView style="@style/Overlay.Caption" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Beatamp" />
+            <TextView android:id="@+id/scene_name" style="@style/Overlay.Title" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="Loading visual…" />
+            <TextView android:id="@+id/scene_meta" style="@style/Overlay.Meta" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="Waiting for renderer" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal"
+                android:gravity="center" android:layout_marginTop="14dp" android:layout_marginBottom="14dp">
+                <ImageButton android:id="@+id/previous_visual" style="@style/Overlay.IconButton" android:src="@drawable/ic_skip_previous" android:contentDescription="Previous visual" />
+                <ImageButton android:id="@+id/shuffle_visual" style="@style/Overlay.IconButton" android:layout_marginStart="22dp" android:layout_marginEnd="22dp" android:src="@drawable/ic_shuffle" android:contentDescription="Random visual" />
+                <ImageButton android:id="@+id/next_visual" style="@style/Overlay.IconButton" android:src="@drawable/ic_skip_next" android:contentDescription="Next visual" />
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider" />
+            <nl.neerdael.presetpoc.OptionRow android:id="@+id/row_mode" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <nl.neerdael.presetpoc.OptionRow android:id="@+id/row_capture" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <TextView android:id="@+id/audio_state" style="@style/Overlay.Meta" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginStart="12dp" android:layout_marginEnd="12dp" android:singleLine="false" android:text="Capture stopped" />
+            <TextView android:id="@+id/audio_format" style="@style/Overlay.Meta" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginStart="12dp" android:layout_marginEnd="12dp" android:layout_marginTop="4dp" android:singleLine="false"
+                android:text="Start capture while music plays in a compatible app." />
+            <nl.neerdael.presetpoc.OptionRow android:id="@+id/row_stop" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="6dp" android:layout_marginBottom="6dp" android:background="@color/divider" />
+            <nl.neerdael.presetpoc.OptionRow android:id="@+id/row_details" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:id="@+id/diagnostics" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:visibility="gone">
+                <TextView android:id="@+id/render_detail" style="@style/Overlay.Meta" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="monospace" android:singleLine="false" android:padding="12dp" />
+                <TextView android:id="@+id/audio_detail" style="@style/Overlay.Meta" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="monospace" android:singleLine="false" android:padding="12dp" />
+            </LinearLayout>
+            <nl.neerdael.presetpoc.OptionRow android:id="@+id/row_fixture" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <nl.neerdael.presetpoc.OptionRow android:id="@+id/row_reference" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <nl.neerdael.presetpoc.OptionRow android:id="@+id/row_licenses" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        </ScrollView>
+        <!-- Keep hints inside the panel while the controls/diagnostics scroll independently. -->
+        <TextView style="@style/Overlay.Meta" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:paddingStart="28dp" android:paddingEnd="28dp" android:paddingTop="8dp" android:singleLine="false"
+            android:text="↑↓ select · ‹ › change · BACK close\nTap outside to return to the visual" />
+        <TextView style="@style/Overlay.Meta" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:paddingStart="28dp" android:paddingEnd="28dp" android:paddingTop="4dp" android:paddingBottom="16dp"
+            android:singleLine="false" android:text="UI adapted from ProjectM-TV · LGPL 2.1" />
+    </LinearLayout>
+</FrameLayout>

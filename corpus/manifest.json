@@ -1,0 +1,2900 @@
+{
+  "schema_version": 1,
+  "created_date": "2026-10-08",
+  "source_checkout": "../Projectm-TV",
+  "source_git_head": "36db66310e75cf640122f3559aca0daad25abcba",
+  "source_population_count": 9606,
+  "source_population_bytes": 114947108,
+  "population_manifest": "corpus/population.jsonl",
+  "population_manifest_sha256": "0ee287748d2bbd0c8ec834c1c6963170480da8af01134b2189b5a09430387bb2",
+  "sample_count": 100,
+  "sampling": {
+    "algorithm": "SHA-256 ranking without replacement; ascending digest then exact UTF-8 relative path",
+    "domain": "preset-convertor/sample-v1",
+    "seed_hex_text": "42f428dc26a55bdd24b5d74c0db1c0f4",
+    "hash_input": "UTF-8(domain) + NUL + ASCII(seed_hex_text) + NUL + UTF-8(relative preset path)",
+    "selected": "first 100 ranked paths",
+    "split": "selection ranks 1-80 development; 81-100 holdout",
+    "note": "Unbiased pseudorandom sample by path; no feature filtering, duplicate-content rejection, or rerolling."
+  },
+  "asset_policy": "Copy all packaged textures to preserve dynamic/random lookup candidates; missing external references remain possible. Texture root is shared and unchanged.",
+  "textures_count": 74,
+  "textures_bytes": 8022243,
+  "presets": [
+    {
+      "path": "suksma - coal drapes - mrt fsh gordo - no genius, just charlatan insanity holy fancy vomiths.milk",
+      "bytes": 18266,
+      "sha256": "e85d477ce1b142ac8f30c77f10c0a35d7d2152666e7b0e8db8dd51efd57012eb",
+      "id": "0e31e116c011e013c8e040e584de204d0610a96b1d81796aeb91cf34099c93f1",
+      "selection_rank": 1,
+      "selection_hash": "000124b68c863c7883afd3970b342e3bae7d2e10b938d95ccfa5c88c24e55769",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/suksma - coal drapes - mrt fsh gordo - no genius, just charlatan insanity holy fancy vomiths.milk",
+      "copied_path": "corpus/presets/suksma - coal drapes - mrt fsh gordo - no genius, just charlatan insanity holy fancy vomiths.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 45,
+        "comp_shader_lines": 40,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 4,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "chris grease nz+.milk",
+      "bytes": 17070,
+      "sha256": "8940f969acd53d598b84f130fc574adc9fd7b7db9b870b6005a6bbe66d3661d0",
+      "id": "64b158eb54bee8edf86b488ce252d28cdb02f50704d99f482b31046e988881bb",
+      "selection_rank": 2,
+      "selection_hash": "00022c597c437020ef823fe5b4faeac72ff8b7add6d8e552cfabc56ad244ded2",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/chris grease nz+.milk",
+      "copied_path": "corpus/presets/chris grease nz+.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 40,
+        "comp_shader_lines": 42,
+        "enabled_custom_waves": 3,
+        "enabled_custom_shapes": 4,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "Shreyas & Unchained - Deeper Aesthetics (Rozzor mashup).milk",
+      "bytes": 12222,
+      "sha256": "d61df0c78541fefcfb0a5d01a73721ddd631d668832c9dd3f752c4262f5cd6bc",
+      "id": "4664e7fafc57338fd219d6ba19a02474dbd96d7824b2a2e74d6a46556e836cb8",
+      "selection_rank": 3,
+      "selection_hash": "0007adecb30aef6e5c8575cf4d6ee69940b3f435bcd21697bad35c70bd9d7c25",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/Shreyas & Unchained - Deeper Aesthetics (Rozzor mashup).milk",
+      "copied_path": "corpus/presets/Shreyas & Unchained - Deeper Aesthetics (Rozzor mashup).milk",
+      "shader_versions": {},
+      "lexical_features": {
+        "warp_shader_lines": 0,
+        "comp_shader_lines": 0,
+        "enabled_custom_waves": 4,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": true,
+        "mentions_texsize": false
+      }
+    },
+    {
+      "path": "suksma - fiShbRaiN - witchcraft (necromancer remix) - i go pout.milk",
+      "bytes": 9812,
+      "sha256": "20873881ca79b1613c1b9924c199149a44d282b567c47533ccf62b96c6b661d5",
+      "id": "d3c6880491ff00a64df535afb9eaa5057667f1b9142b361e9145c4fdcced46e4",
+      "selection_rank": 4,
+      "selection_hash": "000857975ff47e88c7f7e4ba71488f0d19429ed1da11cb228e95e3ee18eb5ee2",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/suksma - fiShbRaiN - witchcraft (necromancer remix) - i go pout.milk",
+      "copied_path": "corpus/presets/suksma - fiShbRaiN - witchcraft (necromancer remix) - i go pout.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 15,
+        "comp_shader_lines": 28,
+        "enabled_custom_waves": 4,
+        "enabled_custom_shapes": 3,
+        "mentions_rand": false,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "ORB - Lost Time Symertic.milk",
+      "bytes": 8905,
+      "sha256": "e326e37333830f35da28b524020fab00a63661ad497a154980f655c1e7bd7871",
+      "id": "89f264883e4df1335b1b892956339bb552c7c1a95e2f7b5859367f26549d94ee",
+      "selection_rank": 5,
+      "selection_hash": "0017cbd34f156d2d37005551a5321549fa9e6b6f7593de30fe36baae0ab77d90",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/ORB - Lost Time Symertic.milk",
+      "copied_path": "corpus/presets/ORB - Lost Time Symertic.milk",
+      "shader_versions": {},
+      "lexical_features": {
+        "warp_shader_lines": 0,
+        "comp_shader_lines": 0,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 4,
+        "mentions_rand": false,
+        "mentions_texsize": false
+      }
+    },
+    {
+      "path": "Hexcollie - First.milk",
+      "bytes": 9616,
+      "sha256": "c0684dab29ce44490cb4cee43bc3c876e33564b2c055e053a6ffa09c5db94945",
+      "id": "a79438e77730d7ddb10a63a8f9cd42b96f740d9566f02db3446095fde29a770b",
+      "selection_rank": 6,
+      "selection_hash": "002306c12182b783fe079ac7b5ef452bf985ed9b12f341a99e1deadae62d1418",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/Hexcollie - First.milk",
+      "copied_path": "corpus/presets/Hexcollie - First.milk",
+      "shader_versions": {},
+      "lexical_features": {
+        "warp_shader_lines": 0,
+        "comp_shader_lines": 0,
+        "enabled_custom_waves": 4,
+        "enabled_custom_shapes": 3,
+        "mentions_rand": true,
+        "mentions_texsize": false
+      }
+    },
+    {
+      "path": "fleekus flokus - violent and insane homicidal air molecules - beat code experiment2 gss nz2.milk",
+      "bytes": 13274,
+      "sha256": "a8571958f683b95c7a212f783653ccb78aba19887e2a3d89170b20970066fb35",
+      "id": "fff6c8ac1c6bde59055c5cc7ed4d4995c8cf33b17653d33d47a74518506767e3",
+      "selection_rank": 7,
+      "selection_hash": "0023959579ca71c66dcafd13fdc08fe47bf3c920cf1b3128a66cc5925355808f",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/fleekus flokus - violent and insane homicidal air molecules - beat code experiment2 gss nz2.milk",
+      "copied_path": "corpus/presets/fleekus flokus - violent and insane homicidal air molecules - beat code experiment2 gss nz2.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 33,
+        "comp_shader_lines": 35,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 2,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "A Tribute to Martin - bombyx mori - Ft Flexi - AdamFX - StahlRegen - Krash - Rovastar -  Hd in Milk U.milk",
+      "bytes": 13530,
+      "sha256": "e711e78c5c9340a102d16812774f7547d7e4083e44bfd452df629a4eff6f012d",
+      "id": "962afc458db885f6d3007e9d363be9f5956ff8ba60b3b3c9e94797367fd2bf66",
+      "selection_rank": 8,
+      "selection_hash": "0034f2fd2671c846b64e9bf9cf8b11b012e2cf1e1a4407eb4a0c47d8448a8e29",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/A Tribute to Martin - bombyx mori - Ft Flexi - AdamFX - StahlRegen - Krash - Rovastar -  Hd in Milk U.milk",
+      "copied_path": "corpus/presets/A Tribute to Martin - bombyx mori - Ft Flexi - AdamFX - StahlRegen - Krash - Rovastar -  Hd in Milk U.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 35,
+        "comp_shader_lines": 30,
+        "enabled_custom_waves": 1,
+        "enabled_custom_shapes": 3,
+        "mentions_rand": true,
+        "mentions_texsize": false
+      }
+    },
+    {
+      "path": "suksma - daryl feels my hellish lonliness - sym.milk",
+      "bytes": 12727,
+      "sha256": "e865f79107dd9e136099fa6bf3873a08b0f1519847a5ea5767a04a0deee17d3e",
+      "id": "e076d198265e29e39b3442bcce98eb0e43ea1463989569069dc25fd79e8393e8",
+      "selection_rank": 9,
+      "selection_hash": "003c25a4fbfc9a3a143cddd41a6a5a0bfcd0b991db533007d61dff80d1bc6284",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/suksma - daryl feels my hellish lonliness - sym.milk",
+      "copied_path": "corpus/presets/suksma - daryl feels my hellish lonliness - sym.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 22,
+        "comp_shader_lines": 27,
+        "enabled_custom_waves": 4,
+        "enabled_custom_shapes": 4,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "suksma - dotes hostile undertake - autoclayve - flacc das yi - kweit what's it all fucking mean.milk",
+      "bytes": 11653,
+      "sha256": "17f31e2ca359d81cea67a2ecf5779dc0351e61b6a0572771fee15ed7fbbca9c1",
+      "id": "552cd77f737ad1f592427a2b64dcb7fb97ec4a5a9391add9a3f5ce07f8a8eb05",
+      "selection_rank": 10,
+      "selection_hash": "003eacfd92246a65b3b5143602cdfff7a8f1f2e56b5993eec79860b6a3b42e7e",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/suksma - dotes hostile undertake - autoclayve - flacc das yi - kweit what's it all fucking mean.milk",
+      "copied_path": "corpus/presets/suksma - dotes hostile undertake - autoclayve - flacc das yi - kweit what's it all fucking mean.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 47,
+        "comp_shader_lines": 26,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 3,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "amandio c - log tower 1 pig vomit 2mbuch4 dorqstre.milk",
+      "bytes": 15872,
+      "sha256": "9c37a7ab3946492aee8fc9ad2cfdaede43c42895e3eb9a0d726a391ccfb25681",
+      "id": "6c855e1983b07c4592a4b7b6bd965f162ff68ab903652957f847a92a77da203a",
+      "selection_rank": 11,
+      "selection_hash": "0046e126ac14b3e9c66896098751eea044680c16feff3a16e31df8b06fd1413c",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/amandio c - log tower 1 pig vomit 2mbuch4 dorqstre.milk",
+      "copied_path": "corpus/presets/amandio c - log tower 1 pig vomit 2mbuch4 dorqstre.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 51,
+        "comp_shader_lines": 21,
+        "enabled_custom_waves": 3,
+        "enabled_custom_shapes": 4,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "out of the paradigm nz bulbuless.milk",
+      "bytes": 15258,
+      "sha256": "7aa0d1be11610da05c88fcae7ffc8ad54801c7d79da77b5a7456b4dfb00db904",
+      "id": "15da25fc066b78884c4832c2ba690a01a51a97e45cdc948fe0b79a822bf5fe5c",
+      "selection_rank": 12,
+      "selection_hash": "00499e650a1f6284cc9e1f473da19955598c335bd8f972be5fa35829d6c1b1b6",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/out of the paradigm nz bulbuless.milk",
+      "copied_path": "corpus/presets/out of the paradigm nz bulbuless.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 24,
+        "comp_shader_lines": 33,
+        "enabled_custom_waves": 4,
+        "enabled_custom_shapes": 1,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "EoS - angels of decay 02 + Phat - soulmate.milk",
+      "bytes": 6525,
+      "sha256": "39cba529ff87c2de5c395ee420deeae28756b776845b7107d1203cdc06a95681",
+      "id": "5097acd14f16c2338775ee35df7460560a0b12ea4da7ecaa55f9179ee730b850",
+      "selection_rank": 13,
+      "selection_hash": "005369ab2b4dd47e299f42534d8c9ee5afdfe7f85fbb461fbd23c7373e69f916",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/EoS - angels of decay 02 + Phat - soulmate.milk",
+      "copied_path": "corpus/presets/EoS - angels of decay 02 + Phat - soulmate.milk",
+      "shader_versions": {},
+      "lexical_features": {
+        "warp_shader_lines": 0,
+        "comp_shader_lines": 0,
+        "enabled_custom_waves": 2,
+        "enabled_custom_shapes": 1,
+        "mentions_rand": false,
+        "mentions_texsize": false
+      }
+    },
+    {
+      "path": "shifter - lattice (eclipse) Phat + EoS more color mix_v2 aa bb ccc.milk",
+      "bytes": 16245,
+      "sha256": "23fc2a51aed3d5ce885c4fe7205216fe74a2d1eb4cf22a5ff23e2a81613a902e",
+      "id": "3294dc5c1679971667d01f6f5625a81df07f4e1b4cd920c45e186758eed568fc",
+      "selection_rank": 14,
+      "selection_hash": "0054fa899372b6d139dfa20d5f7c9dbb728a47b6d18d33c94f58f667233a63e2",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/shifter - lattice (eclipse) Phat + EoS more color mix_v2 aa bb ccc.milk",
+      "copied_path": "corpus/presets/shifter - lattice (eclipse) Phat + EoS more color mix_v2 aa bb ccc.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 17,
+        "comp_shader_lines": 15,
+        "enabled_custom_waves": 3,
+        "enabled_custom_shapes": 3,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "suksma - coal drapes - mrt fsh shf worsening conditions in my lice infested spleen roam nz+.milk",
+      "bytes": 16902,
+      "sha256": "d55cc02a09b6e8744221aeeb7720bc5ff994ea2c78fd669524dea4adba3389c4",
+      "id": "02a81700c3f5bda6b3dc69cb9814572a062313c0e8c0548e495fb1f382da2664",
+      "selection_rank": 15,
+      "selection_hash": "005e57fc68a11671f5d602abfcce299b19e386d462069f95c937274e6a23a995",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/suksma - coal drapes - mrt fsh shf worsening conditions in my lice infested spleen roam nz+.milk",
+      "copied_path": "corpus/presets/suksma - coal drapes - mrt fsh shf worsening conditions in my lice infested spleen roam nz+.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 40,
+        "comp_shader_lines": 53,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 4,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "Stahlregen - Spiral Beats_1.milk",
+      "bytes": 5187,
+      "sha256": "953c6f8e476be689a410d1fcd02f14e4f8309b369157cac46f1767abbeadc1f7",
+      "id": "eb8adcd3260d451bce5008e6f1fa782eb53b71b8e89df168c910abcf44e9069c",
+      "selection_rank": 16,
+      "selection_hash": "0079a690ebb11e263461c7e707be4452a1f2acfde63ab3261f799df81540b51d",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/Stahlregen - Spiral Beats_1.milk",
+      "copied_path": "corpus/presets/Stahlregen - Spiral Beats_1.milk",
+      "shader_versions": {},
+      "lexical_features": {
+        "warp_shader_lines": 0,
+        "comp_shader_lines": 0,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 1,
+        "mentions_rand": true,
+        "mentions_texsize": false
+      }
+    },
+    {
+      "path": "PieturP - circles_progressive.milk",
+      "bytes": 1637,
+      "sha256": "7276302d95492684b5ff76b1a806c9e2fdf819c5fc33cbdf26bbf9137138dc20",
+      "id": "23b7f44b5708ec1ea4fb215c6baa36d4a28d365a391b1bc40f4570253c386f11",
+      "selection_rank": 17,
+      "selection_hash": "008d6d4861d94d7f2e2a916cb0f866fbc489dc93afb0a9d3e695c4f7d2a3e4d7",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/PieturP - circles_progressive.milk",
+      "copied_path": "corpus/presets/PieturP - circles_progressive.milk",
+      "shader_versions": {},
+      "lexical_features": {
+        "warp_shader_lines": 0,
+        "comp_shader_lines": 0,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": false,
+        "mentions_texsize": false
+      }
+    },
+    {
+      "path": "Tripgnosis - Antiphotonic Trap.milk",
+      "bytes": 11182,
+      "sha256": "81c0f5fa691703c25b9f5fcd42c6f946ad9dd95bf61ee84d1883e55d95a962bb",
+      "id": "5efa26a9a163fb752ff0671e69d84c68f0e33217d09aa500000538f6d4eefb80",
+      "selection_rank": 18,
+      "selection_hash": "00af7074c33b703fddcac1591804afa1b3374627e1d19188e1ef140c3c9ad82d",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/Tripgnosis - Antiphotonic Trap.milk",
+      "copied_path": "corpus/presets/Tripgnosis - Antiphotonic Trap.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 11,
+        "comp_shader_lines": 13,
+        "enabled_custom_waves": 3,
+        "enabled_custom_shapes": 3,
+        "mentions_rand": false,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "flexi - patternton, district of media, capitol of the united abstractions of fractopia.milk",
+      "bytes": 10857,
+      "sha256": "9357d7c34ab3ec342342bb1f2756c13cca11c8eca7ebd6f4b11a122f4c720454",
+      "id": "5b02f956369cfbdb49803ca1d6498fd8a93a29d8e9469c1762583b09a97430a9",
+      "selection_rank": 19,
+      "selection_hash": "00b821854ffc7fcd4922c4e975b32ff4f3a415c81faa9fdb4c31cb386e36a88b",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/flexi - patternton, district of media, capitol of the united abstractions of fractopia.milk",
+      "copied_path": "corpus/presets/flexi - patternton, district of media, capitol of the united abstractions of fractopia.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 33,
+        "comp_shader_lines": 28,
+        "enabled_custom_waves": 1,
+        "enabled_custom_shapes": 1,
+        "mentions_rand": false,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "LuxXx - chillin wid my homiez i.milk",
+      "bytes": 13202,
+      "sha256": "050e9e7f44937073242ab17b2279efaa1543838c233d40d8e7fa3c46632425be",
+      "id": "f4ab5207c96cbc98c61d79d9eb9381c44276f10e921958ef1e8601f2c0307e60",
+      "selection_rank": 20,
+      "selection_hash": "00b9be77a9f1245d5b50b07d146d72a7f9c2a73b42ea761e79ca1cae2df5ff69",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/LuxXx - chillin wid my homiez i.milk",
+      "copied_path": "corpus/presets/LuxXx - chillin wid my homiez i.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 55,
+        "comp_shader_lines": 7,
+        "enabled_custom_waves": 4,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "shifter - tumbling cubes (ripples) (Reverse Jelly 2b).milk",
+      "bytes": 10642,
+      "sha256": "52985a44b9107649748be81dea602ef2e35b1699afe0c6cb81241d607deb3020",
+      "id": "a2c4bc9e3385b4fb0cedf300bd44d773d125b8043407f3fc3691d7130adabd62",
+      "selection_rank": 21,
+      "selection_hash": "00baaeb395d20c684ef2146261865d909a801d64de8a391fd7bcc81bf478e3af",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/shifter - tumbling cubes (ripples) (Reverse Jelly 2b).milk",
+      "copied_path": "corpus/presets/shifter - tumbling cubes (ripples) (Reverse Jelly 2b).milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 0,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 0,
+        "comp_shader_lines": 27,
+        "enabled_custom_waves": 3,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": false,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "skipper skipper kiss me hard - tripgnosis, circumlocute with me loavthepsyckle engramiq.milk",
+      "bytes": 23357,
+      "sha256": "1fa1afc83ccedc6b3e7fe3a1349a69fd57c368377f829d5bdc7869269addb689",
+      "id": "911b7647e1ed59cc858c55e2b039e5e0600e3f283fba6d7acf6e91b479df2d7c",
+      "selection_rank": 22,
+      "selection_hash": "00c21fe839e57353f2d8dd83ad0eb4ac2dbe1febbebfce3e4dcce3e28967d75a",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/skipper skipper kiss me hard - tripgnosis, circumlocute with me loavthepsyckle engramiq.milk",
+      "copied_path": "corpus/presets/skipper skipper kiss me hard - tripgnosis, circumlocute with me loavthepsyckle engramiq.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 47,
+        "comp_shader_lines": 47,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 1,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "suksma - mood rings for masochist alien deities - aether attict.milk",
+      "bytes": 13363,
+      "sha256": "d14e9d3322b9f23cea9c1b24a5d3a0c2f37bd6dd70d590e6969ea2cce9933d1a",
+      "id": "dbcb44c895d7360e350d4795c96dbe4a2014fe93b1049676edf171f0d69cd2c6",
+      "selection_rank": 23,
+      "selection_hash": "00dcb2e41da44ec553bca18f0a304f1382743e87cb1b4679a0f447f53dc00387",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/suksma - mood rings for masochist alien deities - aether attict.milk",
+      "copied_path": "corpus/presets/suksma - mood rings for masochist alien deities - aether attict.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 32,
+        "comp_shader_lines": 25,
+        "enabled_custom_waves": 2,
+        "enabled_custom_shapes": 2,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "hard flat snot plane ytian vartime nuggeth celestially large canary bear movement.milk",
+      "bytes": 15794,
+      "sha256": "b72bf7e91d7df0d2fff3a04014e79188bb5794c505a8637aae3d94283566978a",
+      "id": "7786d1ed097966b85cebab71f8b1a117c9e0b3f6ed6a29a98fad4896fb401eb4",
+      "selection_rank": 24,
+      "selection_hash": "00eeda27a190b5b6e470e3494c00b8feb1b399f0951fa3db634c120fa75566c6",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/hard flat snot plane ytian vartime nuggeth celestially large canary bear movement.milk",
+      "copied_path": "corpus/presets/hard flat snot plane ytian vartime nuggeth celestially large canary bear movement.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 33,
+        "comp_shader_lines": 17,
+        "enabled_custom_waves": 2,
+        "enabled_custom_shapes": 4,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "Flexi, AdamFx, Geiss and Rovastar - tokamak TNG [synergy mix].milk",
+      "bytes": 14544,
+      "sha256": "ae1dda8a388d02a2701209343a1571e274406ff4081c3152967c3389d0e7f33b",
+      "id": "03d1c261dff44086205fc3fb64f151c3707020a78d9f715aee8b33ea6ff71abf",
+      "selection_rank": 25,
+      "selection_hash": "00ef1b4e7eb1f46a2e9c25871e7eb55c5fe472bdb44f37e0e33ebf70e537e647",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/Flexi, AdamFx, Geiss and Rovastar - tokamak TNG [synergy mix].milk",
+      "copied_path": "corpus/presets/Flexi, AdamFx, Geiss and Rovastar - tokamak TNG [synergy mix].milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 29,
+        "comp_shader_lines": 37,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "suksma - criminally negligent craft and bake sale - toss universes in gym sock.milk",
+      "bytes": 11319,
+      "sha256": "098c45dab66f63042836960e438aef2f44e289a8ab0259fabbcc362fd4bb9c80",
+      "id": "02f8dfd46d21a522749d3d06ac841dad65f6e28b9880c8adac2cfee09e1dd8f0",
+      "selection_rank": 26,
+      "selection_hash": "00f7a131eb21da03201212b8e917a20e4763c1cce0592d55232bf243a87c9a8b",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/suksma - criminally negligent craft and bake sale - toss universes in gym sock.milk",
+      "copied_path": "corpus/presets/suksma - criminally negligent craft and bake sale - toss universes in gym sock.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 32,
+        "comp_shader_lines": 13,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 4,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "EoS + Phat - chasers 09 sentinel nz+ qraq antiparty.milk",
+      "bytes": 22003,
+      "sha256": "4a57608911151895a011ca5543702ba81bc0fcaed937743d8efcb42f0982d081",
+      "id": "46e0f4d434aa5ebb69b667e9b32edc073c63711488ed592bd1fe1d5e1916003d",
+      "selection_rank": 27,
+      "selection_hash": "010744850e212f9105424998b71ddc5f33949acb2ad4019a5e3d3d79c6666e69",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/EoS + Phat - chasers 09 sentinel nz+ qraq antiparty.milk",
+      "copied_path": "corpus/presets/EoS + Phat - chasers 09 sentinel nz+ qraq antiparty.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 50,
+        "comp_shader_lines": 49,
+        "enabled_custom_waves": 4,
+        "enabled_custom_shapes": 2,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "va ultramix2 - 71_1.milk",
+      "bytes": 7444,
+      "sha256": "a58b41657008cd0d1cdfa9fd550b0669a42526e12539762c4e0cffa93436b45e",
+      "id": "e2a972444b9106727617775aca57e4ecc9bc3ea054f211b94241e4d00ea6ccf2",
+      "selection_rank": 28,
+      "selection_hash": "0109ba519d5058d23c3ae8b47e83481ce8cc20d0d495a8e6c74a87228814c665",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/va ultramix2 - 71_1.milk",
+      "copied_path": "corpus/presets/va ultramix2 - 71_1.milk",
+      "shader_versions": {},
+      "lexical_features": {
+        "warp_shader_lines": 0,
+        "comp_shader_lines": 0,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 1,
+        "mentions_rand": false,
+        "mentions_texsize": false
+      }
+    },
+    {
+      "path": "suksma - turbine comly sill.milk",
+      "bytes": 11814,
+      "sha256": "45a3cca9573ffdb5d0d7f0edec681e59616fa239e76e28e73d52071b6f8adcdc",
+      "id": "0f305e458205e3c510593a7dd135f30084b1acdc1eabc6bd35c453e3e41a37bb",
+      "selection_rank": 29,
+      "selection_hash": "0109bd79e6b27d3afccdb7c3dfc7a7f17c4661beb6c0cc1c0790d176a30da447",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/suksma - turbine comly sill.milk",
+      "copied_path": "corpus/presets/suksma - turbine comly sill.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 26,
+        "comp_shader_lines": 12,
+        "enabled_custom_waves": 3,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": false,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "Geiss - Liquid Beats (Metal Jelly).milk",
+      "bytes": 6564,
+      "sha256": "f7f4237d23d2e0787a58253f1cfaa4d817d0bf2ba15aedb0a94518ecf661a699",
+      "id": "7d11643e4d2440f1b7456ebba1a359c1b68e25e6956152187dc2aee18e43c1e3",
+      "selection_rank": 30,
+      "selection_hash": "01175e51ba6f8e17fb5eb0005d496383b8721bf39fa3214c66ba9ca2f2cdb0d5",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/Geiss - Liquid Beats (Metal Jelly).milk",
+      "copied_path": "corpus/presets/Geiss - Liquid Beats (Metal Jelly).milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 12,
+        "comp_shader_lines": 20,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": false,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "shifter - spincycle(remix) - love at home - q load nz.milk",
+      "bytes": 10750,
+      "sha256": "785ff851d0ad222ad0714657e66a5656a728cb63aa71fd6d362ccf9158026a7b",
+      "id": "e83d3969a64c382bbe549b214428f5493df4325ee304f5983b11493d28c35624",
+      "selection_rank": 31,
+      "selection_hash": "012315c05d152053b90a827d3438770b025b20a35694026dda296a1373cb4213",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/shifter - spincycle(remix) - love at home - q load nz.milk",
+      "copied_path": "corpus/presets/shifter - spincycle(remix) - love at home - q load nz.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 0,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 0,
+        "comp_shader_lines": 21,
+        "enabled_custom_waves": 1,
+        "enabled_custom_shapes": 1,
+        "mentions_rand": false,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "Xpand, FiShbRraiN and suksma  - DRAFT Illusions (1-4)  .milk",
+      "bytes": 7600,
+      "sha256": "f56de26a11f7682456dbb4ee2ef626fac0c717352278a893830fe2ae465e8962",
+      "id": "7a1daf938623eb092478c37d704594a7ac4308e766b5c9b3115fe8b50e439ba6",
+      "selection_rank": 32,
+      "selection_hash": "0140a2c2922c1d927a9dc818f8954a8eeece592165f0b273a27df85224f0dfe4",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/Xpand, FiShbRraiN and suksma  - DRAFT Illusions (1-4)  .milk",
+      "copied_path": "corpus/presets/Xpand, FiShbRraiN and suksma  - DRAFT Illusions (1-4)  .milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 10,
+        "comp_shader_lines": 15,
+        "enabled_custom_waves": 4,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": false,
+        "mentions_texsize": false
+      }
+    },
+    {
+      "path": "oslo - game hen vs ritter sport.milk",
+      "bytes": 13490,
+      "sha256": "c638879cd0b40d90533292126130f71a70982fa4100fd6a55eea06201109b6f4",
+      "id": "7e869c4697a99cfd43d9bc265407a33d70be442ad5332871f1bffaffc03e1bc6",
+      "selection_rank": 33,
+      "selection_hash": "0146b745f6d408cb923f448484f1ff4e756e14173a7b1b79c4b863fef9121f4e",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/oslo - game hen vs ritter sport.milk",
+      "copied_path": "corpus/presets/oslo - game hen vs ritter sport.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 29,
+        "comp_shader_lines": 48,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 2,
+        "mentions_rand": true,
+        "mentions_texsize": false
+      }
+    },
+    {
+      "path": "suksma - biotoxins on strings - walk away + flx per vtx equ.milk",
+      "bytes": 10336,
+      "sha256": "a81ddc64ebd1dc687160e7a4342a10a3d523e8d4ef8118d1a0b579b26d60ed2f",
+      "id": "35368ed0bedce08cddd15fa744657a3f21df3886496fec6e73c7e73ea4cd76a1",
+      "selection_rank": 34,
+      "selection_hash": "01493e3a49ab851b9a7c0e30d6c216c92101bc8ac3bc1151b98da73c4d62249e",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/suksma - biotoxins on strings - walk away + flx per vtx equ.milk",
+      "copied_path": "corpus/presets/suksma - biotoxins on strings - walk away + flx per vtx equ.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 15,
+        "comp_shader_lines": 15,
+        "enabled_custom_waves": 4,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": false,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "blood red raw holy - self-directed devolute.milk",
+      "bytes": 10015,
+      "sha256": "8630878e43602c4e830a8f31a572e06d2b209244ed71c19bdfc92635ede6168e",
+      "id": "8349f731d18fc721a738f86cbfdb025bc3b32e5ad2079c8ef7aeda9abe720e62",
+      "selection_rank": 35,
+      "selection_hash": "014f46923e8f23c98069bd6a85996bb5fae3c8acc88e51155610d7866e800194",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/blood red raw holy - self-directed devolute.milk",
+      "copied_path": "corpus/presets/blood red raw holy - self-directed devolute.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 36,
+        "comp_shader_lines": 15,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 3,
+        "mentions_rand": false,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "shifter - smoked glass - i can't afford to mash this.milk",
+      "bytes": 9029,
+      "sha256": "6a95bff5cacd49e7b36d4f7d02a0d413cc4c38489f42fff7046e8da0006625cf",
+      "id": "eb9b811420368f46d43d79ac655cfe0cdbb8cfbdf08b8a5b6e724473cfa7d2ef",
+      "selection_rank": 36,
+      "selection_hash": "0150a0c9f288e2bc674b804771eeaa20a7a8db98a68c50baa866300d7c1226c5",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/shifter - smoked glass - i can't afford to mash this.milk",
+      "copied_path": "corpus/presets/shifter - smoked glass - i can't afford to mash this.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 42,
+        "comp_shader_lines": 7,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 4,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "Martin n FriendzFX - Bombyx mori - The Undecided Big Bang - Ft AdamFX - Flexi - Rova - Orb - Hexocollie B.milk",
+      "bytes": 13135,
+      "sha256": "8d99c2955667a35ad249514762e70965513def26bd48223809e3699e701889c1",
+      "id": "84514dc6c7043f2390357c9cdb42b6db98f11e282654b9f3b28352a57af10817",
+      "selection_rank": 37,
+      "selection_hash": "015781edf3f83727d8ea30ee0af4d32f8bc5635e488977ab292964f827253096",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/Martin n FriendzFX - Bombyx mori - The Undecided Big Bang - Ft AdamFX - Flexi - Rova - Orb - Hexocollie B.milk",
+      "copied_path": "corpus/presets/Martin n FriendzFX - Bombyx mori - The Undecided Big Bang - Ft AdamFX - Flexi - Rova - Orb - Hexocollie B.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 29,
+        "comp_shader_lines": 48,
+        "enabled_custom_waves": 1,
+        "enabled_custom_shapes": 1,
+        "mentions_rand": true,
+        "mentions_texsize": false
+      }
+    },
+    {
+      "path": "shifter + flexi - american pie artifactory - never contribute - loinel.milk",
+      "bytes": 8789,
+      "sha256": "c5018991f010e37148980b19e2992d5b7963b27bdb547993abfa0d897c93937a",
+      "id": "e7eecd34a6a917a03c8db81d566b09fe5993e38d16411e4d5989e176a4375cd5",
+      "selection_rank": 38,
+      "selection_hash": "0162f38cabe66a84def1f673b3311316a69d0f7b0a204e0ff78bf68d8ac1f06f",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/shifter + flexi - american pie artifactory - never contribute - loinel.milk",
+      "copied_path": "corpus/presets/shifter + flexi - american pie artifactory - never contribute - loinel.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 14,
+        "comp_shader_lines": 16,
+        "enabled_custom_waves": 1,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "suksma - g-thea ceo m-zylo v w-27su om wp-xxx c-stah j5+ - heiyin taiyang.milk",
+      "bytes": 9079,
+      "sha256": "71b495af51add6b03e9ab0a8dad8ffcf9d1805d9ae721e0aac641bc971fac6a1",
+      "id": "571c536f6837aee81e3cb5c64fde0d55e367cf29c55a9dc466a66b3d2c65465e",
+      "selection_rank": 39,
+      "selection_hash": "017019b30103afa519f34af914134a7745d8e1a82362d55721c2d38d62ef49b1",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/suksma - g-thea ceo m-zylo v w-27su om wp-xxx c-stah j5+ - heiyin taiyang.milk",
+      "copied_path": "corpus/presets/suksma - g-thea ceo m-zylo v w-27su om wp-xxx c-stah j5+ - heiyin taiyang.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 18,
+        "comp_shader_lines": 25,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 1,
+        "mentions_rand": false,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "shifter + EoS + phat - static creep 2C [flexis 'stand still' fix].milk",
+      "bytes": 22046,
+      "sha256": "9ed45df9687917901a9bf0d28f33fd72ac35e044375a714ebab83481e12d488f",
+      "id": "e974350ce7fb407ef644f4475aad6e07ceb1910d4c1921fb3596046929efa580",
+      "selection_rank": 40,
+      "selection_hash": "01728e2a801775a9c17ca5ac522feb47e9488b98d4d6ff37ff928c92ba3847a5",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/shifter + EoS + phat - static creep 2C [flexis 'stand still' fix].milk",
+      "copied_path": "corpus/presets/shifter + EoS + phat - static creep 2C [flexis 'stand still' fix].milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 32,
+        "comp_shader_lines": 16,
+        "enabled_custom_waves": 4,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": false,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "ORB - Gravity Well.milk",
+      "bytes": 16612,
+      "sha256": "a4e836b9e552d404800fdb0c80bbe626ddaf8a1e3bbdd30e7fa9e59d42a1b677",
+      "id": "4a185fee3cf0300dc43174d77dcaeee98fd68558c03e0ae3500fcf1624173112",
+      "selection_rank": 41,
+      "selection_hash": "017c9e4f3df1f8c2cf7e435cca05cc28cb0c6dc17bb5cd9d2c9253a2e09d0ec3",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/ORB - Gravity Well.milk",
+      "copied_path": "corpus/presets/ORB - Gravity Well.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 26,
+        "comp_shader_lines": 8,
+        "enabled_custom_waves": 2,
+        "enabled_custom_shapes": 1,
+        "mentions_rand": true,
+        "mentions_texsize": false
+      }
+    },
+    {
+      "path": "amandio c - the green machine 2 skin lard bone beacon nz+ johnny-rigged trough.milk",
+      "bytes": 13270,
+      "sha256": "d090e74ec56d4bb9833fde282d37e98a73ad25c2697736afba5c1c058cd8cfe2",
+      "id": "2aa327df3453fb4842b24d047ea37bcf38a7ba6b5cb725690c742773c801de71",
+      "selection_rank": 42,
+      "selection_hash": "017e07b21bad765852011fac10c32ebad6e00828123f3934e58ed4e618a87222",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/amandio c - the green machine 2 skin lard bone beacon nz+ johnny-rigged trough.milk",
+      "copied_path": "corpus/presets/amandio c - the green machine 2 skin lard bone beacon nz+ johnny-rigged trough.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 70,
+        "comp_shader_lines": 30,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 4,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "Mig_015.milk",
+      "bytes": 6109,
+      "sha256": "4b2f227da1789b1be41aea662d163032eaa9f74e3642f91d8f6b5ff1250d795f",
+      "id": "cde01159b1a27352c2595d6cccfe33a69de3fe4b38db6fc4448fab73a088ca52",
+      "selection_rank": 43,
+      "selection_hash": "01865d7352c146273b358cb8874864ef6185909316bb890b233072026beb4e89",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/Mig_015.milk",
+      "copied_path": "corpus/presets/Mig_015.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 21,
+        "comp_shader_lines": 10,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": false,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "Rovastar + Geiss - Hyperkaleidoscope Glow 2 motion blur (Jelly).milk",
+      "bytes": 7172,
+      "sha256": "ee9d8c26d05c870a64ec0d4630dcbb1b6ae905f8eaff6c956e1c296967adc8a5",
+      "id": "e0c3688436710efe626c4a1c6fa3b97379374f9337651375094488e578a4e441",
+      "selection_rank": 44,
+      "selection_hash": "0188d1e17c4e2ed4ca2d606ad64d4777e019457a8245645f3572b4e931020261",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/Rovastar + Geiss - Hyperkaleidoscope Glow 2 motion blur (Jelly).milk",
+      "copied_path": "corpus/presets/Rovastar + Geiss - Hyperkaleidoscope Glow 2 motion blur (Jelly).milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 21,
+        "comp_shader_lines": 27,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": false,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "cope - ferrofluid.milk",
+      "bytes": 5635,
+      "sha256": "1ba76b8ec28cd06ff114d867e7734b5563513512139aba16b8e85d7d22a2145f",
+      "id": "0bfd77331958b86f52e2598ed91a8686db9d38e3009c9530fe542bd9a42de5cc",
+      "selection_rank": 45,
+      "selection_hash": "018955bb7a83ccd1be759473d651de66fedd16805618e9460c98948c1f2c2010",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/cope - ferrofluid.milk",
+      "copied_path": "corpus/presets/cope - ferrofluid.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 16,
+        "comp_shader_lines": 10,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 1,
+        "mentions_rand": false,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "suksma - everyone's opinion is infinitely differennt - fuckingdelic.milk",
+      "bytes": 13284,
+      "sha256": "af6e03a7efa66c14c5c5984b1353f0ee92a3d6702a240bcc1fd1ab0af2ef1fe7",
+      "id": "734107de7ca1d6c7611132d800da6721411e20da35ebae5d69916c0f71ad2383",
+      "selection_rank": 46,
+      "selection_hash": "01a3120a5c2b5feffac20b9fe65812f0fbe693c784f5bc61b641d4c297ff2f9f",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/suksma - everyone's opinion is infinitely differennt - fuckingdelic.milk",
+      "copied_path": "corpus/presets/suksma - everyone's opinion is infinitely differennt - fuckingdelic.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 21,
+        "comp_shader_lines": 16,
+        "enabled_custom_waves": 2,
+        "enabled_custom_shapes": 3,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "waste.milk",
+      "bytes": 12398,
+      "sha256": "92fdd5ad74a577d501837fa367db035e130ac7937f96c3e53ec8bbeca7126c1d",
+      "id": "cf3ba61dcfef199e258d4e1e1e37ec3b0ebc74682849090e4302f10e1b4f1019",
+      "selection_rank": 47,
+      "selection_hash": "01abfba95c7aa0c270b294690bec7cf2429c50fbc04341496a25fc15503a215d",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/waste.milk",
+      "copied_path": "corpus/presets/waste.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 29,
+        "comp_shader_lines": 34,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 4,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "Flexi - hallucination #1 (Jelly).milk",
+      "bytes": 6395,
+      "sha256": "c841079e21acdc4305e1af224830b029bdd37f98db6e5d516a5017833317b5cf",
+      "id": "6c9875c15396e564985ff2d8592b03d347d80b3d24ada8f6624dda7478d7481f",
+      "selection_rank": 48,
+      "selection_hash": "01b07be113becdb94f2161cb40f0fc25000c547c6adf5dbb634a56d575db8a3a",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/Flexi - hallucination #1 (Jelly).milk",
+      "copied_path": "corpus/presets/Flexi - hallucination #1 (Jelly).milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 0,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 0,
+        "comp_shader_lines": 27,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": false,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "suksma - selfish philanthrow.milk",
+      "bytes": 7572,
+      "sha256": "e8a414b1361122eba96346bdb86965859db3f824de599ffa78a50e1524553053",
+      "id": "5aec15a818a958ddd2ca71cb56ca80ef37f7662a497ac7ba8de4e8db65c000d5",
+      "selection_rank": 49,
+      "selection_hash": "01b66da270898e66c99badf82fc8dd39127fc74bb2a60577538b1ace22eee293",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/suksma - selfish philanthrow.milk",
+      "copied_path": "corpus/presets/suksma - selfish philanthrow.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 12,
+        "comp_shader_lines": 15,
+        "enabled_custom_waves": 4,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "Stahlregen + Amandio C - Rototranslate difference layers 2 + on dotes3 - flacc(2).milk",
+      "bytes": 12539,
+      "sha256": "0ed3f4d360b56ccf81a05a31d9a1ade4badbec7ad8f9bcc6be5c95c0e7f18962",
+      "id": "feac0c3e2e48454f72d7702d0cd64d1594415a9084fe6265cfc3ab41a86d4bad",
+      "selection_rank": 50,
+      "selection_hash": "01be1a77caa645549fb44c2228b45faa34e4695a10706ce558e383af9982f192",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/Stahlregen + Amandio C - Rototranslate difference layers 2 + on dotes3 - flacc(2).milk",
+      "copied_path": "corpus/presets/Stahlregen + Amandio C - Rototranslate difference layers 2 + on dotes3 - flacc(2).milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 28,
+        "comp_shader_lines": 38,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 3,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "suksma - insect coarse hair poizen stingers - log smell2.milk",
+      "bytes": 9084,
+      "sha256": "944421fe509928f00e6163685feffcd2fdbbe9da87aae1790e5d79f0029276fb",
+      "id": "b12781dd5df06dfd82652b2a3ff70444ce2e83bbc3eb4c88c750e9fe6462ec0f",
+      "selection_rank": 51,
+      "selection_hash": "01c004b8bdced583c0323cd6ce478708e8c787bd199efc3bf278b730c30a87d0",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/suksma - insect coarse hair poizen stingers - log smell2.milk",
+      "copied_path": "corpus/presets/suksma - insect coarse hair poizen stingers - log smell2.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 32,
+        "comp_shader_lines": 28,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": false,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "NeW Adam Master Mashup FX 2 Geiss - Reaction Diffusion 34 + Swelling Spiral  + Liquid Fire  + Geiss and Zylot + Various 28.milk",
+      "bytes": 7230,
+      "sha256": "5bfa2563870afff27d41a5c51af2016d0fa1f94894082cc14b10bce5b7a6799d",
+      "id": "c16049fb7d93e26224065548933460c4ba856ff341d99bc1a74e05ee5e2e4c84",
+      "selection_rank": 52,
+      "selection_hash": "01c2043aee8a27bf37d10a5b910622361ffb50f80a9a44553bd196b4912688c0",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/NeW Adam Master Mashup FX 2 Geiss - Reaction Diffusion 34 + Swelling Spiral  + Liquid Fire  + Geiss and Zylot + Various 28.milk",
+      "copied_path": "corpus/presets/NeW Adam Master Mashup FX 2 Geiss - Reaction Diffusion 34 + Swelling Spiral  + Liquid Fire  + Geiss and Zylot + Various 28.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 20,
+        "comp_shader_lines": 15,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "Hexcollie - Swaying Escher Trance .milk",
+      "bytes": 5426,
+      "sha256": "cc586eb56af5766ae2cb31773bcdc72847671f88b43fbb61a7e88e4f9a22bee5",
+      "id": "0151fc5cd39b05a5dece4de63959e198a74619928e1db7f97fbba6fcebbd7eb5",
+      "selection_rank": 53,
+      "selection_hash": "01c97cf15cf489b8f44bb92b9d1597525dc4c5bdbb117bd3eb0239528308a015",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/Hexcollie - Swaying Escher Trance .milk",
+      "copied_path": "corpus/presets/Hexcollie - Swaying Escher Trance .milk",
+      "shader_versions": {},
+      "lexical_features": {
+        "warp_shader_lines": 0,
+        "comp_shader_lines": 0,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 1,
+        "mentions_rand": false,
+        "mentions_texsize": false
+      }
+    },
+    {
+      "path": "martin + flexi - lock and release bipolar 01.milk",
+      "bytes": 15969,
+      "sha256": "25ce79507730f25c481ca8d92102747382ab5606b2a8e3477b054e9046b49aca",
+      "id": "7a70f3c7497d62f2667d40394f7abfda3830524b6f82183c04795d77fe67560e",
+      "selection_rank": 54,
+      "selection_hash": "01cc32d3bf26421478218b7224e61a35124848ad45cacae39b5ab99133630580",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/martin + flexi - lock and release bipolar 01.milk",
+      "copied_path": "corpus/presets/martin + flexi - lock and release bipolar 01.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 30,
+        "comp_shader_lines": 55,
+        "enabled_custom_waves": 2,
+        "enabled_custom_shapes": 2,
+        "mentions_rand": true,
+        "mentions_texsize": false
+      }
+    },
+    {
+      "path": "298 nz+.milk",
+      "bytes": 24297,
+      "sha256": "548aa96ef70bc66b354072afdfbf929acadab5d112263f2b4de30e6a29e32932",
+      "id": "36eda311091d8235c2d0229d2abae41a045f8749d3c8ed7e11516c03161846c3",
+      "selection_rank": 55,
+      "selection_hash": "01cede8d04cbfe1707cd34628b7d05c6204f09d8a12946785196e332d6b45452",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/298 nz+.milk",
+      "copied_path": "corpus/presets/298 nz+.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 15,
+        "comp_shader_lines": 20,
+        "enabled_custom_waves": 4,
+        "enabled_custom_shapes": 1,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "fed - glowing 5 - fingers rmx nz+ phathrehood es terror sick freak pig greaze.milk",
+      "bytes": 12605,
+      "sha256": "f5b388cb08314681968f7bcddd8a16ae53d4ce5c89be398c02be974e0fc095c0",
+      "id": "74e14461f300efe5f60ab2c38b41fbffae77479d7a5501e3abbf474fd543c0d5",
+      "selection_rank": 56,
+      "selection_hash": "01d13bf08f3d0716f1f200fbd9840883a5634447cc903409c61b3b3db39177a0",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/fed - glowing 5 - fingers rmx nz+ phathrehood es terror sick freak pig greaze.milk",
+      "copied_path": "corpus/presets/fed - glowing 5 - fingers rmx nz+ phathrehood es terror sick freak pig greaze.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 45,
+        "comp_shader_lines": 23,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 4,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "Goody's Unstable Sonic Reactor (Reality Binding remix).milk",
+      "bytes": 5849,
+      "sha256": "e5df44362256a91574ba23b150df15682ede7cf5aee4e0dcde907b4f177bbe52",
+      "id": "8da5a8d5101f023f507d148f9fd9112d098c6c5cb4122ff737d52a3825131357",
+      "selection_rank": 57,
+      "selection_hash": "01dee771cb51fd888a6302a951479c3a8a7693ef806116e4baa6d9788546ae00",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/Goody's Unstable Sonic Reactor (Reality Binding remix).milk",
+      "copied_path": "corpus/presets/Goody's Unstable Sonic Reactor (Reality Binding remix).milk",
+      "shader_versions": {},
+      "lexical_features": {
+        "warp_shader_lines": 0,
+        "comp_shader_lines": 0,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": true,
+        "mentions_texsize": false
+      }
+    },
+    {
+      "path": "goody + martin - crystal palace - neurogenesis.milk",
+      "bytes": 10202,
+      "sha256": "89b5e1ca66a4180a797f3b89baf7a49b7d33b8e06437042b05f865a95ef26a45",
+      "id": "950b145d92295f0b37b406e020477fd3ed5ae05327950da9506fbdce91d8c25e",
+      "selection_rank": 58,
+      "selection_hash": "01e5f3e874d91750214f1ac3749c9db79abd82f3a94b9f63e4006d8ab57a2f55",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/goody + martin - crystal palace - neurogenesis.milk",
+      "copied_path": "corpus/presets/goody + martin - crystal palace - neurogenesis.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 55,
+        "comp_shader_lines": 48,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": true,
+        "mentions_texsize": false
+      }
+    },
+    {
+      "path": "martin - Geiss - Psychotic Roulette.milk",
+      "bytes": 11617,
+      "sha256": "a292f725a8afd5fa3ca61285dc3f95c60f2fa1fc12d1e9b1a71f5b8fcb3307ac",
+      "id": "ccac6b5209b3fea3186be155caf26e276644552bed567f83b01a3acd2f2ddcc6",
+      "selection_rank": 59,
+      "selection_hash": "01e8d07cd75dfa4455033b908475c4986e4e50d40fc22d609fe300a7a676fa74",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/martin - Geiss - Psychotic Roulette.milk",
+      "copied_path": "corpus/presets/martin - Geiss - Psychotic Roulette.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 21,
+        "comp_shader_lines": 18,
+        "enabled_custom_waves": 1,
+        "enabled_custom_shapes": 1,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "shifter - plasmic fact - grinding without compromise.milk",
+      "bytes": 10409,
+      "sha256": "42c1a9a3bafb324b7a93c9abfe9d543448660461e83c0ad8ce3f57b909bfba22",
+      "id": "0e59637c83309ee825ef68a26320511119d6cbffde8fc2800e0d04e0f8cdbdbc",
+      "selection_rank": 60,
+      "selection_hash": "01ed7cc427d2f0f7799021515d302a5198ac24194be0257021ce6f8d12956a1e",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/shifter - plasmic fact - grinding without compromise.milk",
+      "copied_path": "corpus/presets/shifter - plasmic fact - grinding without compromise.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 16,
+        "comp_shader_lines": 13,
+        "enabled_custom_waves": 2,
+        "enabled_custom_shapes": 3,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "Flexi - disruptor [wolfram's rule 90].milk",
+      "bytes": 9192,
+      "sha256": "bbed93553545b3c0a345bba6b706d5da0356fd6192a23ef730e789ba2d20ce42",
+      "id": "f3552a6bb48fd4a13cf05a5cf1a7b1f1ec309390503720f7540ad3eda6d09020",
+      "selection_rank": 61,
+      "selection_hash": "01ed9a4080b2078b5435cc46263572f217b34b930f9fd48a69f7a7b800579538",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/Flexi - disruptor [wolfram's rule 90].milk",
+      "copied_path": "corpus/presets/Flexi - disruptor [wolfram's rule 90].milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 20,
+        "comp_shader_lines": 4,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "suksma - shiny-bladed homicide machine at dusk - sunset misanthrope.milk",
+      "bytes": 12379,
+      "sha256": "b47d9f896c9bce942d8ee346cb3fc2e160e0f4b9a698309d821e0bff2660f40a",
+      "id": "1743e5bed6d7bcb03cf0ed70079cb357a34023a23b60b2fa64e3d31ee4e8b61c",
+      "selection_rank": 62,
+      "selection_hash": "01f8d7807855aececc93e136125500f0839605cf50195be7030a9d57c6b6caeb",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/suksma - shiny-bladed homicide machine at dusk - sunset misanthrope.milk",
+      "copied_path": "corpus/presets/suksma - shiny-bladed homicide machine at dusk - sunset misanthrope.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 21,
+        "comp_shader_lines": 10,
+        "enabled_custom_waves": 4,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": false,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "suksma - DemonLD_-_Future_domination - mash0000 - sclera torture.milk",
+      "bytes": 10344,
+      "sha256": "d6c93956bd9699f9f5f239b70d7bb6d7347a953991212725854b6fbb473fc927",
+      "id": "41bd017cd7f3c7846df6c096fc9a620a26f61bf5756cbee2ec6539804f893782",
+      "selection_rank": 63,
+      "selection_hash": "0206eec880e469729ee6bff68cde4ebb1252850c73f04b838de999a09ae92871",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/suksma - DemonLD_-_Future_domination - mash0000 - sclera torture.milk",
+      "copied_path": "corpus/presets/suksma - DemonLD_-_Future_domination - mash0000 - sclera torture.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 53,
+        "comp_shader_lines": 13,
+        "enabled_custom_waves": 4,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "Stahlregen & Geiss + Rovastar - Fields of Flowers (Poisoned Flowers).milk",
+      "bytes": 5748,
+      "sha256": "db6058944115e39b9a1115cb069f12fef5e2f0d630597131f4df81e9c24d0363",
+      "id": "27e5e28297c7073f89846f60b62614a856b168675b886520c3faa38d6c8527ed",
+      "selection_rank": 64,
+      "selection_hash": "02070b7a61978167e52f565fb4f9a32c809b9a691f4140273c54914e1d67f0ee",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/Stahlregen & Geiss + Rovastar - Fields of Flowers (Poisoned Flowers).milk",
+      "copied_path": "corpus/presets/Stahlregen & Geiss + Rovastar - Fields of Flowers (Poisoned Flowers).milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 12,
+        "comp_shader_lines": 15,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": false,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "amandio c - embrace 08 hog rot nz+ figaro.milk",
+      "bytes": 15266,
+      "sha256": "3637e0bc490fa203e7520b851032e2596a0c79c3dd7f8d56b9e553b663421925",
+      "id": "f01329b4956c8875c0e108fcc8b9d403fbbea46005e47e428f4973c29fcf18ad",
+      "selection_rank": 65,
+      "selection_hash": "020b91a19b4a9c1863663918ded29ce9a576451b5cebcecb9ebc130271194dc9",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/amandio c - embrace 08 hog rot nz+ figaro.milk",
+      "copied_path": "corpus/presets/amandio c - embrace 08 hog rot nz+ figaro.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 49,
+        "comp_shader_lines": 56,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 4,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "ougiel nz2.milk",
+      "bytes": 12747,
+      "sha256": "45827103f1ae28ed1ca1442e1f551cd025d48b92016c19c10c02b0f2347f9046",
+      "id": "2865fbc56500a43700a2b92174b6ba082fb3d8ac9af01eae45a4dbaa1848b82b",
+      "selection_rank": 66,
+      "selection_hash": "0210aae9457316cbbd55b1038de309342f0cad0087ddfb05192a8bfe7bc2d988",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/ougiel nz2.milk",
+      "copied_path": "corpus/presets/ougiel nz2.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 24,
+        "comp_shader_lines": 13,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 3,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "signed 'nuph phoaqing death warrants i don't have time for myself kenneth chesneth thee greaet VVar.milk",
+      "bytes": 12974,
+      "sha256": "be511d303e6516c188c6c4911281cfc2eb6c275a74656b55667ce7c9ecf62bf2",
+      "id": "881e5612fa4bae084d48d55f75d7965df57cff4df1c9d18e19e493e83267aa82",
+      "selection_rank": 67,
+      "selection_hash": "022e510f667ba5f6015518009a636b74ea805e20cefd87a205607afcb47f684a",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/signed 'nuph phoaqing death warrants i don't have time for myself kenneth chesneth thee greaet VVar.milk",
+      "copied_path": "corpus/presets/signed 'nuph phoaqing death warrants i don't have time for myself kenneth chesneth thee greaet VVar.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 22,
+        "comp_shader_lines": 13,
+        "enabled_custom_waves": 1,
+        "enabled_custom_shapes": 3,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "xtramartin (936).milk",
+      "bytes": 14784,
+      "sha256": "236fe4c759f9aa7389cb077f1ce4bdc8fe0def927c46665831a7afccf8da33eb",
+      "id": "0265e7c87489bbf0eba11325653adc739630443ed19076910d4eaf180aa99a3c",
+      "selection_rank": 68,
+      "selection_hash": "0234863b108fde00943eeba45372266e45b4b1f911853b7d435f0814c280c5f7",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/xtramartin (936).milk",
+      "copied_path": "corpus/presets/xtramartin (936).milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 23,
+        "comp_shader_lines": 87,
+        "enabled_custom_waves": 2,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": true,
+        "mentions_texsize": false
+      }
+    },
+    {
+      "path": "start from a cat head.milk",
+      "bytes": 10825,
+      "sha256": "2195d12e7ca7883bc0e547741c69daec0db420ddaabef03a262b36a7247d01af",
+      "id": "1251600bad88ae37bc5211b62c74e5f6845fb61dae93c24bfa3d7f981593ceb2",
+      "selection_rank": 69,
+      "selection_hash": "0234cd829f1976642ec947a92397b2c5a909232f18ff80c81904d0b79435256c",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/start from a cat head.milk",
+      "copied_path": "corpus/presets/start from a cat head.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 23,
+        "comp_shader_lines": 26,
+        "enabled_custom_waves": 4,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "LuxXx - Brain Grind ii.milk",
+      "bytes": 9515,
+      "sha256": "e9f9068a80aaa5d443231fa059c35e72604f035ab267423034cbce0aac190e10",
+      "id": "452617ceadff39b3533bc7a5527f78b29431e5f225d4a84a25f35ec728991f8f",
+      "selection_rank": 70,
+      "selection_hash": "023fd59e8dfec34e3887cfd51686028a1046efd3df31bffa9a8c63d64829df40",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/LuxXx - Brain Grind ii.milk",
+      "copied_path": "corpus/presets/LuxXx - Brain Grind ii.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 15,
+        "comp_shader_lines": 29,
+        "enabled_custom_waves": 3,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "TonyMilkdrop - Nuclear [Flexi - help out].milk",
+      "bytes": 5936,
+      "sha256": "314f58fb2dd876ed557f92bbddb7b6d45609b50abbc8f7d1195ef6bdea9da9c3",
+      "id": "792c3a25851f44a07f73d2250d399c13a9845feca70ec2babf7102a6616e20f7",
+      "selection_rank": 71,
+      "selection_hash": "02450b1d885148a3785e335a4db96cc340cd938b84be49b80a3591910c6cef69",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/TonyMilkdrop - Nuclear [Flexi - help out].milk",
+      "copied_path": "corpus/presets/TonyMilkdrop - Nuclear [Flexi - help out].milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 0
+      },
+      "lexical_features": {
+        "warp_shader_lines": 29,
+        "comp_shader_lines": 0,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": false,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "EoS + Phat and Zylot - Chasers (Sentinal BioMechanical Mix).milk",
+      "bytes": 15430,
+      "sha256": "64ae27b0fa20aa7282dacb620e39caeff197b18324c295589c65d77f37470ca4",
+      "id": "ef090b8ea7ad2a5f8d5234d1a548bc48d3d9bde7f79f7a29cfc2d43adc469966",
+      "selection_rank": 72,
+      "selection_hash": "024ee5e08b75425578985947ba7afc0c786b6d9f085ebbe9479ea854ac13a2f7",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/EoS + Phat and Zylot - Chasers (Sentinal BioMechanical Mix).milk",
+      "copied_path": "corpus/presets/EoS + Phat and Zylot - Chasers (Sentinal BioMechanical Mix).milk",
+      "shader_versions": {},
+      "lexical_features": {
+        "warp_shader_lines": 0,
+        "comp_shader_lines": 0,
+        "enabled_custom_waves": 4,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": false,
+        "mentions_texsize": false
+      }
+    },
+    {
+      "path": "An AdamFX n Martin Infusion 2 flexi - Why The Sky Looks Diffrent Today - AdamFx n Martin Infusion - Tack Tile Disfunction B.milk",
+      "bytes": 21718,
+      "sha256": "69595c7027833e63539e282db2ff323e2d1abe98c6d5b199b3db79c9e7827c45",
+      "id": "ff5c664367636c805ac684783e5d80ec19f8ea44492dc3e664697f5119824c5b",
+      "selection_rank": 73,
+      "selection_hash": "024f0fc9179b793c1e9938519dccb957630d394acfbd2483ac1e68b26f66439f",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/An AdamFX n Martin Infusion 2 flexi - Why The Sky Looks Diffrent Today - AdamFx n Martin Infusion - Tack Tile Disfunction B.milk",
+      "copied_path": "corpus/presets/An AdamFX n Martin Infusion 2 flexi - Why The Sky Looks Diffrent Today - AdamFx n Martin Infusion - Tack Tile Disfunction B.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 26,
+        "comp_shader_lines": 48,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 1,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "suksma - sick star bloat --- Isosceles edit06.milk",
+      "bytes": 6713,
+      "sha256": "605103b9d5ed2bb4d886583af925255b726a51de9dd54274ffa17e2df4b929ee",
+      "id": "0a3681bd572603b2a77d88f25998de3e855e380e2a2c399a4bd318b8c2e2c0b7",
+      "selection_rank": 74,
+      "selection_hash": "025061c63125acac5ae4b6bd81b18e32335f14e17d120a23a509ee94b1ec2c74",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/suksma - sick star bloat --- Isosceles edit06.milk",
+      "copied_path": "corpus/presets/suksma - sick star bloat --- Isosceles edit06.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 15,
+        "comp_shader_lines": 15,
+        "enabled_custom_waves": 1,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "suksma - dotes hostile undertake - can't even remember her blood mist eminant.milk",
+      "bytes": 12751,
+      "sha256": "5dd5e4b85be2655c4f6eb62f723d285f385013add8cc7144f6a75c8281d2443c",
+      "id": "8825c8b082c1580e7252eb0935ef10be7a86600c9e096a955151ef9ac93ac15a",
+      "selection_rank": 75,
+      "selection_hash": "0254ac018185f01852e0f9a868de11d65267433f9d7e105c8affc112440e19a4",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/suksma - dotes hostile undertake - can't even remember her blood mist eminant.milk",
+      "copied_path": "corpus/presets/suksma - dotes hostile undertake - can't even remember her blood mist eminant.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 26,
+        "comp_shader_lines": 42,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 3,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "propre possess mod her hate roq.milk",
+      "bytes": 13483,
+      "sha256": "eba07741c1e6bb0a604d838973113201115df91e267d8745b1bdab8ad8415801",
+      "id": "c02c73ad4c3fc7d0a6070dbc493405e4a2ce8f3360516ee2d4aa958edb1cbbaa",
+      "selection_rank": 76,
+      "selection_hash": "025c6396bda5430c0fe454cd50e82bcf28e25fedbf4e5eec9f93ed0d796172e5",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/propre possess mod her hate roq.milk",
+      "copied_path": "corpus/presets/propre possess mod her hate roq.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 28,
+        "comp_shader_lines": 5,
+        "enabled_custom_waves": 4,
+        "enabled_custom_shapes": 4,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "suksma - biotoxins on strings - busy highway ignores + flx per vtx equ.milk",
+      "bytes": 10164,
+      "sha256": "6f11b01659ced81871bf0847ab4c6d84a41a4f7188532e34aeabb9899e56166f",
+      "id": "02b39a375d54c00fe19db6876daf91dcb0863e29be5016153b23a803d00516b7",
+      "selection_rank": 77,
+      "selection_hash": "0265672eb53adf8d4fe49e3fb2b0e7ce0ab85190d4ef28be1ebeac273da55309",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/suksma - biotoxins on strings - busy highway ignores + flx per vtx equ.milk",
+      "copied_path": "corpus/presets/suksma - biotoxins on strings - busy highway ignores + flx per vtx equ.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 15,
+        "comp_shader_lines": 11,
+        "enabled_custom_waves": 4,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": false,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "cpe domains flacc - limited set of novelty from brain depending on mood roam.milk",
+      "bytes": 10662,
+      "sha256": "a2106264c67ad65fb70fddafd01e7034acb3ff5b8c54f008a828b09fa84b59a3",
+      "id": "94c89286d31e54cc77fef509aa8d62f9aef7a09a33f82eb74e6e62dc9918184b",
+      "selection_rank": 78,
+      "selection_hash": "0265a2ee3700c185a52195d678d004ba28a16bb5b1f15f2212a6bae555668883",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/cpe domains flacc - limited set of novelty from brain depending on mood roam.milk",
+      "copied_path": "corpus/presets/cpe domains flacc - limited set of novelty from brain depending on mood roam.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 27,
+        "comp_shader_lines": 27,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 2,
+        "mentions_rand": true,
+        "mentions_texsize": false
+      }
+    },
+    {
+      "path": "suksma - Fvese - MV Fun 3 - completely juiced by presses.milk",
+      "bytes": 6433,
+      "sha256": "cc6f6b104461cc521e31f178d62c5137b6b1bf893b497ad6f879d2abf20a83c2",
+      "id": "ea835ab7b11046b8bb57f0da436a5e1186c29920e4f940288be9bd0eeecf79dd",
+      "selection_rank": 79,
+      "selection_hash": "0267de8985d5d31d6605d892b23e0f95561ac38b4f9df258646dbb4173774fe9",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/suksma - Fvese - MV Fun 3 - completely juiced by presses.milk",
+      "copied_path": "corpus/presets/suksma - Fvese - MV Fun 3 - completely juiced by presses.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 20,
+        "comp_shader_lines": 25,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": false,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "rediculator qrem glob.milk",
+      "bytes": 26446,
+      "sha256": "dbe4d7b2d8c72d6722a3b2594121e434b94404d69e20f1468830a8bfe0aaa577",
+      "id": "3a157474f0d9c3dc5ef0e3ecc49f2cae0de3c689d931b21ba5715cff6bfa77ea",
+      "selection_rank": 80,
+      "selection_hash": "026dff3e120a1967808fe667539b86b10e674ebfe6142097ff65e46603d81b44",
+      "split": "development",
+      "source_path": "core/src/main/assets/presets/rediculator qrem glob.milk",
+      "copied_path": "corpus/presets/rediculator qrem glob.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 63,
+        "comp_shader_lines": 34,
+        "enabled_custom_waves": 4,
+        "enabled_custom_shapes": 4,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "TonyMilkdrop - Tricolors [Flexi - techy strain + $this shall not retain] --- Isosceles edit.milk",
+      "bytes": 6558,
+      "sha256": "a2ac1b825716cdf6f2a0de7d25bd02664fc055bea65e0c4648546d0cfddde14f",
+      "id": "ad8e62b444cd165df81a69c0fb7e2688df71912c4a952f4a8929e4d770f4de6d",
+      "selection_rank": 81,
+      "selection_hash": "0274fcf09bf1ad860bf85d1514a500f3e86db9b1bcf1f149d66d37ec4de50aa1",
+      "split": "holdout",
+      "source_path": "core/src/main/assets/presets/TonyMilkdrop - Tricolors [Flexi - techy strain + $this shall not retain] --- Isosceles edit.milk",
+      "copied_path": "corpus/presets/TonyMilkdrop - Tricolors [Flexi - techy strain + $this shall not retain] --- Isosceles edit.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 21,
+        "comp_shader_lines": 23,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": false,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "shifter - spun sugar nz+.milk",
+      "bytes": 22800,
+      "sha256": "ee4e811c356911e2ee3f7fb5423c225b4af64d6d7bf5ae2b29b8f81067501b3e",
+      "id": "1532a960fc8b34c53efff7006aa604fdde182de29f4bafd29b114a75626bf336",
+      "selection_rank": 82,
+      "selection_hash": "027b6aeff9c1dee7be2ad4f8ae88400635c767342840e6a405ee671210384b63",
+      "split": "holdout",
+      "source_path": "core/src/main/assets/presets/shifter - spun sugar nz+.milk",
+      "copied_path": "corpus/presets/shifter - spun sugar nz+.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 32,
+        "comp_shader_lines": 23,
+        "enabled_custom_waves": 2,
+        "enabled_custom_shapes": 2,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "stahlregen - splash! (Quasi-Crystallization).milk",
+      "bytes": 6094,
+      "sha256": "1128c467f80c5340031e2b571b9d16e4e48f1edb8bde1db6b8502b95f2ccfb68",
+      "id": "a48c68175868a0e7474f179141f2da9647cac7d3849f34c0d22a9839e015c1ea",
+      "selection_rank": 83,
+      "selection_hash": "02849dd7cd90b97e58bc7fb507a310b6b0ccb387f931b5de6752cabfc8d156ff",
+      "split": "holdout",
+      "source_path": "core/src/main/assets/presets/stahlregen - splash! (Quasi-Crystallization).milk",
+      "copied_path": "corpus/presets/stahlregen - splash! (Quasi-Crystallization).milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 13,
+        "comp_shader_lines": 11,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 3,
+        "mentions_rand": false,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "Goody's LSD Zoomtunnel (sharp).milk",
+      "bytes": 7639,
+      "sha256": "82ebba9a081a719ba29011ac2ebabc07db9b3d9508e864aa56e9d6362af95448",
+      "id": "ac23e04ab33e99087160a63998a9e085b4a11e89f75f6a3ba5b9158f2d2199c1",
+      "selection_rank": 84,
+      "selection_hash": "0286c537d2319f74a1f39b18b518e1e61570da3222dad849924742db35c92841",
+      "split": "holdout",
+      "source_path": "core/src/main/assets/presets/Goody's LSD Zoomtunnel (sharp).milk",
+      "copied_path": "corpus/presets/Goody's LSD Zoomtunnel (sharp).milk",
+      "shader_versions": {},
+      "lexical_features": {
+        "warp_shader_lines": 0,
+        "comp_shader_lines": 0,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 2,
+        "mentions_rand": true,
+        "mentions_texsize": false
+      }
+    },
+    {
+      "path": "suksma - satanic teleprompter - feeling filthy.milk",
+      "bytes": 16254,
+      "sha256": "4c3390a870349493ae08703058ff01ed51143053210bc4594a522723ba0b58a6",
+      "id": "e27be32f14295646504b020a3fb2b6618a9ed2f34f1c8123b57724010937c762",
+      "selection_rank": 85,
+      "selection_hash": "0291f01de1689ba4b2ad9361c783d08b43e66095966fc270f589dd4f592ebba8",
+      "split": "holdout",
+      "source_path": "core/src/main/assets/presets/suksma - satanic teleprompter - feeling filthy.milk",
+      "copied_path": "corpus/presets/suksma - satanic teleprompter - feeling filthy.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 53,
+        "comp_shader_lines": 21,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 2,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "Rovastar + Geiss - Hyperspace - kaleidoscope.milk",
+      "bytes": 5722,
+      "sha256": "bb347bcefaf73f4ffe644367a4202a41136c2395529e06fdb13b536fbb0d68ed",
+      "id": "c1affd0101be2a1396a8ec86bf2e14efc7f4922ae59813c485324c26d785b8ba",
+      "selection_rank": 86,
+      "selection_hash": "02a0574b4becf5439f0b91fe81f16c349292a391d5bc38e5f919f0fe0cbb5266",
+      "split": "holdout",
+      "source_path": "core/src/main/assets/presets/Rovastar + Geiss - Hyperspace - kaleidoscope.milk",
+      "copied_path": "corpus/presets/Rovastar + Geiss - Hyperspace - kaleidoscope.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 9,
+        "comp_shader_lines": 26,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": false,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "suksma - daryl feels my hellish lonliness - creamy layers of junk mail drips with soul.milk",
+      "bytes": 12334,
+      "sha256": "9924f864ac9bf04149bc431f6773ffbbd72ae97d353f18c82769046d9029e624",
+      "id": "b4b6ff3d096e782438f6d6fd5e3c4142645eba24d8d112cfb16f780d77221677",
+      "selection_rank": 87,
+      "selection_hash": "02a1aabcb73da2b3c513b7f04b1ea8d6362cdcd6426556199b1f43a5163bc6cb",
+      "split": "holdout",
+      "source_path": "core/src/main/assets/presets/suksma - daryl feels my hellish lonliness - creamy layers of junk mail drips with soul.milk",
+      "copied_path": "corpus/presets/suksma - daryl feels my hellish lonliness - creamy layers of junk mail drips with soul.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 28,
+        "comp_shader_lines": 18,
+        "enabled_custom_waves": 2,
+        "enabled_custom_shapes": 4,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "martin - lightning_1.milk",
+      "bytes": 14009,
+      "sha256": "2645a8997cfb6dd856516eeec3bf8cf34124e71335517e248ec794a2961b0ab3",
+      "id": "cfbb447b05c5e794885aca0ae1531c9a1d045ff022d05cc153bd2bf173d55c01",
+      "selection_rank": 88,
+      "selection_hash": "02a20010db853cf5a146473881b606b0ae54a93d954e3b85e7816498db0dd5ed",
+      "split": "holdout",
+      "source_path": "core/src/main/assets/presets/martin - lightning_1.milk",
+      "copied_path": "corpus/presets/martin - lightning_1.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 33,
+        "comp_shader_lines": 32,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "LuxXx - Fuck ur Fractal Muscles I.milk",
+      "bytes": 9347,
+      "sha256": "7903a2a74add1dff32188a68384f3570f85edf80eebf2202534d9509ec71cec9",
+      "id": "fb95cc4e191f2b8b117c98029f6d4fcec35eaf6368ba00cda27e02b099022398",
+      "selection_rank": 89,
+      "selection_hash": "02a398757649bd3346e8dc3490a211fc697740ed2673316f51adcbe5957efb63",
+      "split": "holdout",
+      "source_path": "core/src/main/assets/presets/LuxXx - Fuck ur Fractal Muscles I.milk",
+      "copied_path": "corpus/presets/LuxXx - Fuck ur Fractal Muscles I.milk",
+      "shader_versions": {},
+      "lexical_features": {
+        "warp_shader_lines": 0,
+        "comp_shader_lines": 0,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 4,
+        "mentions_rand": true,
+        "mentions_texsize": false
+      }
+    },
+    {
+      "path": "Fumbling_Foo & Flexi, Martin, Orb - Star Forge v12b.milk",
+      "bytes": 24157,
+      "sha256": "f543e84596cc57521bed3cfc6e9e23ef1584c5014e2ddd979eb1950f806b5b4f",
+      "id": "23e6572c4e2b15ff79376a72030d9388dcf36fdd786ed51a4ffbccc33a1c3aa6",
+      "selection_rank": 90,
+      "selection_hash": "02b6735bee587da235c2cca6252c430a1959f2710f53607ac933dcc0a9e5e051",
+      "split": "holdout",
+      "source_path": "core/src/main/assets/presets/Fumbling_Foo & Flexi, Martin, Orb - Star Forge v12b.milk",
+      "copied_path": "corpus/presets/Fumbling_Foo & Flexi, Martin, Orb - Star Forge v12b.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 22,
+        "comp_shader_lines": 20,
+        "enabled_custom_waves": 1,
+        "enabled_custom_shapes": 1,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "ShadowHarlequin - Fitting Butterfly - v7 - [Loadus & Geiss - FractalDrop 22] neon starscapev2.milk",
+      "bytes": 15744,
+      "sha256": "f5ddde6a284466e86052459f3c06d3135918404174e766f6b6c5f24ab9406c0f",
+      "id": "f4c731d7e0365b24f45ecd2a283dfd75ca091e301705d20f09b5ca8cba41b106",
+      "selection_rank": 91,
+      "selection_hash": "02b74262f0a56f41f591766285dcf5fe70d68fcf3d5579b059d72a5de277699b",
+      "split": "holdout",
+      "source_path": "core/src/main/assets/presets/ShadowHarlequin - Fitting Butterfly - v7 - [Loadus & Geiss - FractalDrop 22] neon starscapev2.milk",
+      "copied_path": "corpus/presets/ShadowHarlequin - Fitting Butterfly - v7 - [Loadus & Geiss - FractalDrop 22] neon starscapev2.milk",
+      "shader_versions": {},
+      "lexical_features": {
+        "warp_shader_lines": 0,
+        "comp_shader_lines": 0,
+        "enabled_custom_waves": 4,
+        "enabled_custom_shapes": 4,
+        "mentions_rand": true,
+        "mentions_texsize": false
+      }
+    },
+    {
+      "path": "xtramartin (278).milk",
+      "bytes": 18719,
+      "sha256": "c6a544baa7104aa1d2ea00e79cd7dffc2726476e6504aa5171e982f056e1ec6d",
+      "id": "db904852f02730895523ac40bf23a955a1a4335ac4613cfece4f7380c47a6173",
+      "selection_rank": 92,
+      "selection_hash": "02c15c1c6c8ea5fc998ce6feeedee4aa67f77b46142d5806f2bcd2584629132b",
+      "split": "holdout",
+      "source_path": "core/src/main/assets/presets/xtramartin (278).milk",
+      "copied_path": "corpus/presets/xtramartin (278).milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 42,
+        "comp_shader_lines": 57,
+        "enabled_custom_waves": 4,
+        "enabled_custom_shapes": 4,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "flexi - grind my glitch up [044].milk",
+      "bytes": 15545,
+      "sha256": "c45e46494bd9dfb008c0efd957a3cd7009f4bda38eb73d239ba5f7546670fac2",
+      "id": "72f0635b5f8a6e20754bd2ee43babf6a204a16c62d75aa8a9d7cbf3ebabb46b2",
+      "selection_rank": 93,
+      "selection_hash": "02c757e6ec84edf292dd9ec73ef67b05660aebb60fb2e92bd4cea7dadcf55406",
+      "split": "holdout",
+      "source_path": "core/src/main/assets/presets/flexi - grind my glitch up [044].milk",
+      "copied_path": "corpus/presets/flexi - grind my glitch up [044].milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 35,
+        "comp_shader_lines": 72,
+        "enabled_custom_waves": 1,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "stahlregen & bdrv + geiss + shifter - hypno swirl (mashup 38 - random tex crawl) designator trough.milk",
+      "bytes": 8440,
+      "sha256": "355b5ff50fd25805d49299c4b4a76fa29b702372f1b0d10b89fe31b18f14b832",
+      "id": "d312e65c26725b6271b2e91e2753133a63bda58d8d245f53a3bcc6d9d0b228a0",
+      "selection_rank": 94,
+      "selection_hash": "02d0246dfaa0a40a872e44d60fe67f449329a4bdc9f614d4ba9f5d656dfa5944",
+      "split": "holdout",
+      "source_path": "core/src/main/assets/presets/stahlregen & bdrv + geiss + shifter - hypno swirl (mashup 38 - random tex crawl) designator trough.milk",
+      "copied_path": "corpus/presets/stahlregen & bdrv + geiss + shifter - hypno swirl (mashup 38 - random tex crawl) designator trough.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 53,
+        "comp_shader_lines": 26,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 1,
+        "mentions_rand": false,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "suksma - Roosta  - Bursting Egg - mash0000 - tree rings of life - nuclear stratovarian wood nz+ puke slo --- Isosceles edit2.milk",
+      "bytes": 10902,
+      "sha256": "3787a60f6ce23d51c1fe40bb50c460fac0693a4e988c7faea47bd5d6429656b5",
+      "id": "c9cabd6de98b6a890f35df3ad31cb2c382dd88a172ba6ac0ca8d5e9daad4c232",
+      "selection_rank": 95,
+      "selection_hash": "02d540a164187bf382a27939e84fb944a930c93d9f53ad189133cf79e3e1cdd4",
+      "split": "holdout",
+      "source_path": "core/src/main/assets/presets/suksma - Roosta  - Bursting Egg - mash0000 - tree rings of life - nuclear stratovarian wood nz+ puke slo --- Isosceles edit2.milk",
+      "copied_path": "corpus/presets/suksma - Roosta  - Bursting Egg - mash0000 - tree rings of life - nuclear stratovarian wood nz+ puke slo --- Isosceles edit2.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 25,
+        "comp_shader_lines": 31,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "Stahlregen & Flexi + Geiss + Martin + Rovastar + Telek - DiskWasher (Gentle RMX).milk",
+      "bytes": 8070,
+      "sha256": "5eba0797e746af8238af4b7129d255a1113893414f5ee0654bdaef2e1507a3af",
+      "id": "63461974b2e33b9de42302afb49f36bc4ea162ce1fa712ecd1e176e7f26b2b15",
+      "selection_rank": 96,
+      "selection_hash": "02d87551b72af9d5e91ea6746af34583bb466b4caa45997092a02e95a14c44b0",
+      "split": "holdout",
+      "source_path": "core/src/main/assets/presets/Stahlregen & Flexi + Geiss + Martin + Rovastar + Telek - DiskWasher (Gentle RMX).milk",
+      "copied_path": "corpus/presets/Stahlregen & Flexi + Geiss + Martin + Rovastar + Telek - DiskWasher (Gentle RMX).milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 18,
+        "comp_shader_lines": 34,
+        "enabled_custom_waves": 1,
+        "enabled_custom_shapes": 3,
+        "mentions_rand": false,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "buxom xuxum sluxtxphuxnx.milk",
+      "bytes": 13953,
+      "sha256": "6690d0d2885aa8054ba1eee910374db15d649657b024cbbb8521841d0411f27f",
+      "id": "bee938679c2a92bbc81cf85c63c1cdee20d19a3db71a9a22b33d4d9751dbf1c2",
+      "selection_rank": 97,
+      "selection_hash": "02dd79f3122da86e42b4f558d254cf932c63eba62caeba5f93dd68d3f0ada375",
+      "split": "holdout",
+      "source_path": "core/src/main/assets/presets/buxom xuxum sluxtxphuxnx.milk",
+      "copied_path": "corpus/presets/buxom xuxum sluxtxphuxnx.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 3,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 34,
+        "comp_shader_lines": 36,
+        "enabled_custom_waves": 1,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "suksma - schlotkink.milk",
+      "bytes": 11087,
+      "sha256": "a9de24f0c4a4ca8cd0b549c20446de504c1413f504600a41632f36aad09d314a",
+      "id": "24c308b877e0103e1e8baadb3b653fcb5cbe0807fa78d6b4941bdea9dbd71600",
+      "selection_rank": 98,
+      "selection_hash": "02e12af52ff8136f1ee1a53f734ba510a3b755552a87ab5ffc413d2dfbd748bb",
+      "split": "holdout",
+      "source_path": "core/src/main/assets/presets/suksma - schlotkink.milk",
+      "copied_path": "corpus/presets/suksma - schlotkink.milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 23,
+        "comp_shader_lines": 28,
+        "enabled_custom_waves": 2,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": false,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "Milkdrop Mashup Masters ADAMFX 2 raron + flexi  + Geiss + Martini .milk",
+      "bytes": 11179,
+      "sha256": "7dceec6d8d344e48e008055fd72363ea485a0cea10199a933b8b30e12ec66f70",
+      "id": "416cd9cab30241eeda72466fd2ad7023c003740c4e50ed895eef6d3acf50b065",
+      "selection_rank": 99,
+      "selection_hash": "02e345dee46f6cf115f4dcd470ef9f83893c374061ea074a57c208b13d08c73b",
+      "split": "holdout",
+      "source_path": "core/src/main/assets/presets/Milkdrop Mashup Masters ADAMFX 2 raron + flexi  + Geiss + Martini .milk",
+      "copied_path": "corpus/presets/Milkdrop Mashup Masters ADAMFX 2 raron + flexi  + Geiss + Martini .milk",
+      "shader_versions": {
+        "PSVERSION": 2,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 2
+      },
+      "lexical_features": {
+        "warp_shader_lines": 48,
+        "comp_shader_lines": 28,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 4,
+        "mentions_rand": true,
+        "mentions_texsize": true
+      }
+    },
+    {
+      "path": "TonyMilkdrop - Angels Of Glory [Flexi - making a case for well-being + multiverse] --- Isosceles edit.milk",
+      "bytes": 7738,
+      "sha256": "be03b007effd1b1b61ceffa922d2df0e4125b61ca39e07fdbaf15cd73fd4ba0e",
+      "id": "abbfa52572c2179f9fc3b102494eb21245941360274983bd0e971343302d13eb",
+      "selection_rank": 100,
+      "selection_hash": "02e7113495b195e4837e28f95d6b65771f850a961513751c9af62c2658c9a23b",
+      "split": "holdout",
+      "source_path": "core/src/main/assets/presets/TonyMilkdrop - Angels Of Glory [Flexi - making a case for well-being + multiverse] --- Isosceles edit.milk",
+      "copied_path": "corpus/presets/TonyMilkdrop - Angels Of Glory [Flexi - making a case for well-being + multiverse] --- Isosceles edit.milk",
+      "shader_versions": {
+        "PSVERSION": 3,
+        "PSVERSION_WARP": 2,
+        "PSVERSION_COMP": 3
+      },
+      "lexical_features": {
+        "warp_shader_lines": 17,
+        "comp_shader_lines": 33,
+        "enabled_custom_waves": 0,
+        "enabled_custom_shapes": 0,
+        "mentions_rand": false,
+        "mentions_texsize": true
+      }
+    }
+  ],
+  "textures": [
+    {
+      "path": "AbalonyStosich.jpg",
+      "source_path": "core/src/main/assets/textures/AbalonyStosich.jpg",
+      "copied_path": "corpus/textures/AbalonyStosich.jpg",
+      "bytes": 15418,
+      "sha256": "47ad80aaeb98ab8647271605069e205fa4df71202d5d5849e81702e0b1123b23"
+    },
+    {
+      "path": "Image415.jpg",
+      "source_path": "core/src/main/assets/textures/Image415.jpg",
+      "copied_path": "corpus/textures/Image415.jpg",
+      "bytes": 27622,
+      "sha256": "4815995b55060430723358d097d3a25363a635317b44acccefe5e092f2134587"
+    },
+    {
+      "path": "OIbeans1.jpg",
+      "source_path": "core/src/main/assets/textures/OIbeans1.jpg",
+      "copied_path": "corpus/textures/OIbeans1.jpg",
+      "bytes": 20492,
+      "sha256": "624e11b9f4a9f0b45a6ad6e255a858ef69450078bae824c97fa4a29c0014b760"
+    },
+    {
+      "path": "OIcafewall.jpg",
+      "source_path": "core/src/main/assets/textures/OIcafewall.jpg",
+      "copied_path": "corpus/textures/OIcafewall.jpg",
+      "bytes": 9793,
+      "sha256": "fcd2a6168a41b61a9f16906478aab15f0443cb6d416d65881039427e5f4ae2cc"
+    },
+    {
+      "path": "OIchess1.jpg",
+      "source_path": "core/src/main/assets/textures/OIchess1.jpg",
+      "copied_path": "corpus/textures/OIchess1.jpg",
+      "bytes": 5989,
+      "sha256": "c298fe3a52b61470e9b7eba326ec35ac40b07b9f02f38effbd413585ad573e5a"
+    },
+    {
+      "path": "OIcurved1.jpg",
+      "source_path": "core/src/main/assets/textures/OIcurved1.jpg",
+      "copied_path": "corpus/textures/OIcurved1.jpg",
+      "bytes": 1248,
+      "sha256": "cecef2df3f52c24cd9e3306a551c8aeecdc821c700bcf021b0de8e5aea3a2dcc"
+    },
+    {
+      "path": "OIcurved2.jpg",
+      "source_path": "core/src/main/assets/textures/OIcurved2.jpg",
+      "copied_path": "corpus/textures/OIcurved2.jpg",
+      "bytes": 12978,
+      "sha256": "2d78ef8261e182e8fdc707390724cfb5f776c63f49bdd0d9c4c8fcad9e88851f"
+    },
+    {
+      "path": "OIcurved3.jpg",
+      "source_path": "core/src/main/assets/textures/OIcurved3.jpg",
+      "copied_path": "corpus/textures/OIcurved3.jpg",
+      "bytes": 563,
+      "sha256": "1d73a8372d7ef6bb8faaaf7fa46144fd0ed5d0159585c7c0d5883eb2f5840364"
+    },
+    {
+      "path": "OIcurved4.jpg",
+      "source_path": "core/src/main/assets/textures/OIcurved4.jpg",
+      "copied_path": "corpus/textures/OIcurved4.jpg",
+      "bytes": 22162,
+      "sha256": "7ff4448a9f91d1a6677dcc9bcb33e981ba99c726d823c523181694f44ce01d6f"
+    },
+    {
+      "path": "OIkametanjo.jpg",
+      "source_path": "core/src/main/assets/textures/OIkametanjo.jpg",
+      "copied_path": "corpus/textures/OIkametanjo.jpg",
+      "bytes": 46954,
+      "sha256": "073cbc4cd083de7bf336d546868c6b8e45ddb4533a90a5c3c44cb47f34391cd1"
+    },
+    {
+      "path": "OIparallel1.jpg",
+      "source_path": "core/src/main/assets/textures/OIparallel1.jpg",
+      "copied_path": "corpus/textures/OIparallel1.jpg",
+      "bytes": 68064,
+      "sha256": "d2c4478178386397092b996c1189e8ea10907aaf8612bfd093de0f2c2fc74f16"
+    },
+    {
+      "path": "OIpoggendo.jpg",
+      "source_path": "core/src/main/assets/textures/OIpoggendo.jpg",
+      "copied_path": "corpus/textures/OIpoggendo.jpg",
+      "bytes": 11842,
+      "sha256": "bd3af90534d614d05919f2caf0f763b7cbaf13a935ef9c1435d7d9b273739fc9"
+    },
+    {
+      "path": "OctagonalRoach.jpg",
+      "source_path": "core/src/main/assets/textures/OctagonalRoach.jpg",
+      "copied_path": "corpus/textures/OctagonalRoach.jpg",
+      "bytes": 15927,
+      "sha256": "1fe14532f20254911feb6a1676d960165f7aea6bb5dee8469660b4f7cc6c2d99"
+    },
+    {
+      "path": "PEcubes1.jpg",
+      "source_path": "core/src/main/assets/textures/PEcubes1.jpg",
+      "copied_path": "corpus/textures/PEcubes1.jpg",
+      "bytes": 13849,
+      "sha256": "96292d8fad481989d1e258ad66264d1bcb622fd4b0115587d9365e25dbaf8492"
+    },
+    {
+      "path": "PEcubesBW.jpg",
+      "source_path": "core/src/main/assets/textures/PEcubesBW.jpg",
+      "copied_path": "corpus/textures/PEcubesBW.jpg",
+      "bytes": 22578,
+      "sha256": "b9e60cab1afb1828655e4edc9a7df91c5b10e94bf79e8fc609b66aa0ad2de481"
+    },
+    {
+      "path": "PElosang1.jpg",
+      "source_path": "core/src/main/assets/textures/PElosang1.jpg",
+      "copied_path": "corpus/textures/PElosang1.jpg",
+      "bytes": 6099,
+      "sha256": "5ace2e27d4f64e3d25795f3f2cbb637a9304500f6d4e811300470c27772b4f76"
+    },
+    {
+      "path": "PEpyramid1.jpg",
+      "source_path": "core/src/main/assets/textures/PEpyramid1.jpg",
+      "copied_path": "corpus/textures/PEpyramid1.jpg",
+      "bytes": 14411,
+      "sha256": "3744275d50f244d265f61f7548a829464d267f4fecfd718536015874f3bdcd9c"
+    },
+    {
+      "path": "PEsticks1.jpg",
+      "source_path": "core/src/main/assets/textures/PEsticks1.jpg",
+      "copied_path": "corpus/textures/PEsticks1.jpg",
+      "bytes": 17301,
+      "sha256": "eec44c21fb1f67eb77ea863079d21bc99a8026e65750f6ca9370a435bb6517bc"
+    },
+    {
+      "path": "PEsticks2.jpg",
+      "source_path": "core/src/main/assets/textures/PEsticks2.jpg",
+      "copied_path": "corpus/textures/PEsticks2.jpg",
+      "bytes": 71511,
+      "sha256": "74f2ccd62dc3029deebe19b4d89729b495d834bf30d626b1b6f02e8acaa7fd9e"
+    },
+    {
+      "path": "bw3.jpg",
+      "source_path": "core/src/main/assets/textures/bw3.jpg",
+      "copied_path": "corpus/textures/bw3.jpg",
+      "bytes": 533129,
+      "sha256": "70197f8b608b8877e3ec2fcda141f084bf3acfb5227e81065f3e77654d64f4b9"
+    },
+    {
+      "path": "cartunemask1.jpg",
+      "source_path": "core/src/main/assets/textures/cartunemask1.jpg",
+      "copied_path": "corpus/textures/cartunemask1.jpg",
+      "bytes": 30721,
+      "sha256": "d9af2dc29c33a0c5b15ac74325fe80a463a826bcf8d5a3a5f6a10a1bddbcf4dd"
+    },
+    {
+      "path": "cells.jpg",
+      "source_path": "core/src/main/assets/textures/cells.jpg",
+      "copied_path": "corpus/textures/cells.jpg",
+      "bytes": 53403,
+      "sha256": "73c63dafb7f61ea742ba0612cd9b070a62d66e5e4c28abfac738acfa9aaeeaf8"
+    },
+    {
+      "path": "chloemall.png",
+      "source_path": "core/src/main/assets/textures/chloemall.png",
+      "copied_path": "corpus/textures/chloemall.png",
+      "bytes": 3771499,
+      "sha256": "f07c01e6b234c9e75e51136681a79ee435eb37ac893acc793e8facfce9da5c23"
+    },
+    {
+      "path": "chloemallCornerMask.png",
+      "source_path": "core/src/main/assets/textures/chloemallCornerMask.png",
+      "copied_path": "corpus/textures/chloemallCornerMask.png",
+      "bytes": 1388,
+      "sha256": "b847f831ef5107685fdfa1fffab51ec2eefbe053b5789c58a3fccab39b79d316"
+    },
+    {
+      "path": "clouds.jpg",
+      "source_path": "core/src/main/assets/textures/clouds.jpg",
+      "copied_path": "corpus/textures/clouds.jpg",
+      "bytes": 11354,
+      "sha256": "f0f718609c5a911b4a394c750f6ffb8af531ef8551657ea03dc1f688127e0302"
+    },
+    {
+      "path": "clouds2.jpg",
+      "source_path": "core/src/main/assets/textures/clouds2.jpg",
+      "copied_path": "corpus/textures/clouds2.jpg",
+      "bytes": 11067,
+      "sha256": "6348bd19522f2c6a27f76844a4588fe0327c9d9414eaeeec4162895f085d4268"
+    },
+    {
+      "path": "colors.jpg",
+      "source_path": "core/src/main/assets/textures/colors.jpg",
+      "copied_path": "corpus/textures/colors.jpg",
+      "bytes": 41136,
+      "sha256": "db6854db3e43db35050ef7b5119477d8400afc9964a20c7c97c293f008917a1c"
+    },
+    {
+      "path": "colors7.jpg",
+      "source_path": "core/src/main/assets/textures/colors7.jpg",
+      "copied_path": "corpus/textures/colors7.jpg",
+      "bytes": 18020,
+      "sha256": "ff0ef0c6dbc9d6ad099bfa7febd505a041b3210798ef243ad71e16d52c5edd00"
+    },
+    {
+      "path": "devboxb.jpg",
+      "source_path": "core/src/main/assets/textures/devboxb.jpg",
+      "copied_path": "corpus/textures/devboxb.jpg",
+      "bytes": 7390,
+      "sha256": "b4227883ecce1f50ef7951bec4de43c2ab168e3fbc4cd19e6109adc3a0551802"
+    },
+    {
+      "path": "eyeball.jpg",
+      "source_path": "core/src/main/assets/textures/eyeball.jpg",
+      "copied_path": "corpus/textures/eyeball.jpg",
+      "bytes": 3325,
+      "sha256": "0c0c4c78d7db809212e24f2639a906d9d05203a1ddb9e34f4f44e6be5302e269"
+    },
+    {
+      "path": "facade01.jpg",
+      "source_path": "core/src/main/assets/textures/facade01.jpg",
+      "copied_path": "corpus/textures/facade01.jpg",
+      "bytes": 21118,
+      "sha256": "d2dd6468e1417df888cfa4eec2fe6f7db740649b70b8b7afc9d5e58fdd0edd68"
+    },
+    {
+      "path": "fire_alpha.jpg",
+      "source_path": "core/src/main/assets/textures/fire_alpha.jpg",
+      "copied_path": "corpus/textures/fire_alpha.jpg",
+      "bytes": 11960,
+      "sha256": "7519c3c0baa09046baf8e0195a423ed02681b10a440a2f58073a82414e723717"
+    },
+    {
+      "path": "fire_alpha3.jpg",
+      "source_path": "core/src/main/assets/textures/fire_alpha3.jpg",
+      "copied_path": "corpus/textures/fire_alpha3.jpg",
+      "bytes": 35639,
+      "sha256": "f7c0ed80250d652c7a5b339120cd3dcb26d31e52b104adba075bf1aa3ab3189a"
+    },
+    {
+      "path": "fire_alpha4.jpg",
+      "source_path": "core/src/main/assets/textures/fire_alpha4.jpg",
+      "copied_path": "corpus/textures/fire_alpha4.jpg",
+      "bytes": 17280,
+      "sha256": "0ad4f2212574f43efa1a2336ff3b4bfb6153e22d8340ccafc0d16d21b909b514"
+    },
+    {
+      "path": "fire_alpha5.jpg",
+      "source_path": "core/src/main/assets/textures/fire_alpha5.jpg",
+      "copied_path": "corpus/textures/fire_alpha5.jpg",
+      "bytes": 28585,
+      "sha256": "e1fe5e6540a4a1cfcf4871dd737d23d940a64e95e9d2e36a635827daaa134275"
+    },
+    {
+      "path": "fire_alpha8.jpg",
+      "source_path": "core/src/main/assets/textures/fire_alpha8.jpg",
+      "copied_path": "corpus/textures/fire_alpha8.jpg",
+      "bytes": 12411,
+      "sha256": "4d5e01bddaebc0338341bb896eb4e4fecfbdf47540d55b69b189d7f0410a6bfc"
+    },
+    {
+      "path": "fire_base.jpg",
+      "source_path": "core/src/main/assets/textures/fire_base.jpg",
+      "copied_path": "corpus/textures/fire_base.jpg",
+      "bytes": 48666,
+      "sha256": "4b98aa0d4092977b133f1e75532756975d91d345a01ed3fbd6f6433714d8cb23"
+    },
+    {
+      "path": "fire_dis4.jpg",
+      "source_path": "core/src/main/assets/textures/fire_dis4.jpg",
+      "copied_path": "corpus/textures/fire_dis4.jpg",
+      "bytes": 57264,
+      "sha256": "717458d54a1a808761569711e6cf66c455a26341b16640063af17ac8924dd173"
+    },
+    {
+      "path": "fire_dis5.jpg",
+      "source_path": "core/src/main/assets/textures/fire_dis5.jpg",
+      "copied_path": "corpus/textures/fire_dis5.jpg",
+      "bytes": 134329,
+      "sha256": "82fe164da4a60a7145ba75fdf7a04051636c6a0192af040c1e96323a3f83054c"
+    },
+    {
+      "path": "grad.jpg",
+      "source_path": "core/src/main/assets/textures/grad.jpg",
+      "copied_path": "corpus/textures/grad.jpg",
+      "bytes": 9891,
+      "sha256": "a1782e77ea6ac18d08328f87cca6f3f4f894f36378458e29b5e9761abee95b2d"
+    },
+    {
+      "path": "grad16.jpg",
+      "source_path": "core/src/main/assets/textures/grad16.jpg",
+      "copied_path": "corpus/textures/grad16.jpg",
+      "bytes": 114259,
+      "sha256": "0f07794ac3ae0fb8e775065e668a01d65b51ae149208d6400be47b3813c676ad"
+    },
+    {
+      "path": "grad2.jpg",
+      "source_path": "core/src/main/assets/textures/grad2.jpg",
+      "copied_path": "corpus/textures/grad2.jpg",
+      "bytes": 13413,
+      "sha256": "ab6307d6bfb9b6cf5f87aa49e9eafbd3806ba4bb98985a8d798f93147e09a60d"
+    },
+    {
+      "path": "grad3.jpg",
+      "source_path": "core/src/main/assets/textures/grad3.jpg",
+      "copied_path": "corpus/textures/grad3.jpg",
+      "bytes": 40850,
+      "sha256": "fc853bb74d67b9788d274266016802425a651d4ed4d67f588c3762fd748c0b95"
+    },
+    {
+      "path": "heart.jpg",
+      "source_path": "core/src/main/assets/textures/heart.jpg",
+      "copied_path": "corpus/textures/heart.jpg",
+      "bytes": 28690,
+      "sha256": "259e5122c42220369b8ee2f3570858e08db668bda9832cd96233ed4e11ae9e25"
+    },
+    {
+      "path": "lichen.jpg",
+      "source_path": "core/src/main/assets/textures/lichen.jpg",
+      "copied_path": "corpus/textures/lichen.jpg",
+      "bytes": 22333,
+      "sha256": "37efb7a166e94f4fa5328114860b05812434953df045ff9c8c91b96e63471a99"
+    },
+    {
+      "path": "manyfish.jpg",
+      "source_path": "core/src/main/assets/textures/manyfish.jpg",
+      "copied_path": "corpus/textures/manyfish.jpg",
+      "bytes": 30493,
+      "sha256": "57e7eb55d35a96158b97cc1f025f294d07f99a3355b4c8571d95a82a47b1b0de"
+    },
+    {
+      "path": "moss1.jpg",
+      "source_path": "core/src/main/assets/textures/moss1.jpg",
+      "copied_path": "corpus/textures/moss1.jpg",
+      "bytes": 45770,
+      "sha256": "8f3f10ae75acff724ac651e901dd0cb43a841573e313f9f315341bf8fe7e9ee8"
+    },
+    {
+      "path": "noise64.png",
+      "source_path": "core/src/main/assets/textures/noise64.png",
+      "copied_path": "corpus/textures/noise64.png",
+      "bytes": 14102,
+      "sha256": "17173093b104e98f6b3ca7da4f3cac738d37568eac26879f0d166779098e767d"
+    },
+    {
+      "path": "onefish.jpg",
+      "source_path": "core/src/main/assets/textures/onefish.jpg",
+      "copied_path": "corpus/textures/onefish.jpg",
+      "bytes": 34369,
+      "sha256": "3994768679343cd562e41f3a1743cdbaf892b1f93a258075b10ebdb59420aff6"
+    },
+    {
+      "path": "pano_earth.jpg",
+      "source_path": "core/src/main/assets/textures/pano_earth.jpg",
+      "copied_path": "corpus/textures/pano_earth.jpg",
+      "bytes": 856514,
+      "sha256": "aa5f3d7c8d1b09802c244c3a7781a32ab15227d1acc3dec116beaf0d3a1aa52e"
+    },
+    {
+      "path": "pano_earth_clouds.jpg",
+      "source_path": "core/src/main/assets/textures/pano_earth_clouds.jpg",
+      "copied_path": "corpus/textures/pano_earth_clouds.jpg",
+      "bytes": 21534,
+      "sha256": "5aff1ed93a9801193da7bcd964de3dd493c5615165e5cbdd3698421be0a7d877"
+    },
+    {
+      "path": "pano_earth_night.jpg",
+      "source_path": "core/src/main/assets/textures/pano_earth_night.jpg",
+      "copied_path": "corpus/textures/pano_earth_night.jpg",
+      "bytes": 3110,
+      "sha256": "c9d95fc90d5d76a5eec9f47d55428869e6a367ee35a44a95e00bcbd2da2892a2"
+    },
+    {
+      "path": "pano_earth_spec.jpg",
+      "source_path": "core/src/main/assets/textures/pano_earth_spec.jpg",
+      "copied_path": "corpus/textures/pano_earth_spec.jpg",
+      "bytes": 531935,
+      "sha256": "4915ae03dcfabeb232a13f55e687ee7af5c447766a055c578fa400f353aa29d2"
+    },
+    {
+      "path": "pano_starsmap.jpg",
+      "source_path": "core/src/main/assets/textures/pano_starsmap.jpg",
+      "copied_path": "corpus/textures/pano_starsmap.jpg",
+      "bytes": 2399,
+      "sha256": "aad17668cbdbcf51110bc0dcd423ea4132544e1d7a56783d7bc97b67f9d3a63d"
+    },
+    {
+      "path": "paper.jpg",
+      "source_path": "core/src/main/assets/textures/paper.jpg",
+      "copied_path": "corpus/textures/paper.jpg",
+      "bytes": 34384,
+      "sha256": "902feaef58b63c388fc554946ed9fb3591c9cc444be6074e28d8a22462d0e192"
+    },
+    {
+      "path": "plane.png",
+      "source_path": "core/src/main/assets/textures/plane.png",
+      "copied_path": "corpus/textures/plane.png",
+      "bytes": 20543,
+      "sha256": "c91bd405833c12065bd98251640bafe1e18871273c69314a9a11a10cf6768c45"
+    },
+    {
+      "path": "rose.jpg",
+      "source_path": "core/src/main/assets/textures/rose.jpg",
+      "copied_path": "corpus/textures/rose.jpg",
+      "bytes": 85221,
+      "sha256": "afd039fa6b234ef622f541d8033a51dec61f47b137f93fbca08ca2aa155ed36b"
+    },
+    {
+      "path": "ruin.jpg",
+      "source_path": "core/src/main/assets/textures/ruin.jpg",
+      "copied_path": "corpus/textures/ruin.jpg",
+      "bytes": 124892,
+      "sha256": "547ddf16d2361481d4d6df178ae4dbe4f47bd0f3fb4df0511a0fc7f4667e036b"
+    },
+    {
+      "path": "seaweed.jpg",
+      "source_path": "core/src/main/assets/textures/seaweed.jpg",
+      "copied_path": "corpus/textures/seaweed.jpg",
+      "bytes": 32669,
+      "sha256": "9d65e6534708a7c1c7b103e39ff7a5aa8e9451332a9876f60961d9b927aeb579"
+    },
+    {
+      "path": "seaweed_ORIGINAL.jpg",
+      "source_path": "core/src/main/assets/textures/seaweed_ORIGINAL.jpg",
+      "copied_path": "corpus/textures/seaweed_ORIGINAL.jpg",
+      "bytes": 32669,
+      "sha256": "9d65e6534708a7c1c7b103e39ff7a5aa8e9451332a9876f60961d9b927aeb579"
+    },
+    {
+      "path": "shub1.jpg",
+      "source_path": "core/src/main/assets/textures/shub1.jpg",
+      "copied_path": "corpus/textures/shub1.jpg",
+      "bytes": 217602,
+      "sha256": "af37a1acb297c297b5106346d5393a734572a8f866cdbe7cab091d9b14d0edbd"
+    },
+    {
+      "path": "sin_lookup.jpg",
+      "source_path": "core/src/main/assets/textures/sin_lookup.jpg",
+      "copied_path": "corpus/textures/sin_lookup.jpg",
+      "bytes": 1310,
+      "sha256": "b5d4fad23c6a59552e396d0f51cbe36bb7d0dea923ddac2d41b7d851b2bba009"
+    },
+    {
+      "path": "sinl.jpg",
+      "source_path": "core/src/main/assets/textures/sinl.jpg",
+      "copied_path": "corpus/textures/sinl.jpg",
+      "bytes": 2101,
+      "sha256": "947a54af05a1a279cfc1542b7018d73b53d2ad588547f065caebed070ae8c882"
+    },
+    {
+      "path": "skull.jpg",
+      "source_path": "core/src/main/assets/textures/skull.jpg",
+      "copied_path": "corpus/textures/skull.jpg",
+      "bytes": 45303,
+      "sha256": "c406499742aeef8e4655e1170132d7d8b9051cbf613ee1ccb4c10e3804d47f94"
+    },
+    {
+      "path": "sky.jpg",
+      "source_path": "core/src/main/assets/textures/sky.jpg",
+      "copied_path": "corpus/textures/sky.jpg",
+      "bytes": 28770,
+      "sha256": "49a86738cef0bd779f64b2b57390b4cce4d4c9d089942bc939f06a53ddc91944"
+    },
+    {
+      "path": "smalltiled_colors3.jpg",
+      "source_path": "core/src/main/assets/textures/smalltiled_colors3.jpg",
+      "copied_path": "corpus/textures/smalltiled_colors3.jpg",
+      "bytes": 20622,
+      "sha256": "54ae6fbe0abf28649cf5fd41fac558d472e4330e11199b3fa4463200ebd72bbc"
+    },
+    {
+      "path": "smalltiled_electric_nebula.jpg",
+      "source_path": "core/src/main/assets/textures/smalltiled_electric_nebula.jpg",
+      "copied_path": "corpus/textures/smalltiled_electric_nebula.jpg",
+      "bytes": 15678,
+      "sha256": "100784abde796d7e76bbfec8daa9c8cfca89d90b179823649c7d8a4eff2c0aab"
+    },
+    {
+      "path": "smalltiled_ensign_meat.jpg",
+      "source_path": "core/src/main/assets/textures/smalltiled_ensign_meat.jpg",
+      "copied_path": "corpus/textures/smalltiled_ensign_meat.jpg",
+      "bytes": 26294,
+      "sha256": "ebb72e587c3c1c9be3343ef88841721bdcedb9fbfb01b61e14cbaf9bbbba46e0"
+    },
+    {
+      "path": "smalltiled_lizard_scales.jpg",
+      "source_path": "core/src/main/assets/textures/smalltiled_lizard_scales.jpg",
+      "copied_path": "corpus/textures/smalltiled_lizard_scales.jpg",
+      "bytes": 17928,
+      "sha256": "ab00cccaf3191faf28489b46fcfb568802db3a5b8c51f7efecb3d7b5c22f191a"
+    },
+    {
+      "path": "sunrise.jpg",
+      "source_path": "core/src/main/assets/textures/sunrise.jpg",
+      "copied_path": "corpus/textures/sunrise.jpg",
+      "bytes": 16385,
+      "sha256": "27c2f24e50bedf5a1d01e8785aa428042ac9fea9adb3ba02035dd1267a26f0e3"
+    },
+    {
+      "path": "test.jpg",
+      "source_path": "core/src/main/assets/textures/test.jpg",
+      "copied_path": "corpus/textures/test.jpg",
+      "bytes": 144279,
+      "sha256": "643ac0058f750cd0ad468ac5adfc0fe3b54db3570762b894613ed8a2b3f4a311"
+    },
+    {
+      "path": "videoalpha.jpg",
+      "source_path": "core/src/main/assets/textures/videoalpha.jpg",
+      "copied_path": "corpus/textures/videoalpha.jpg",
+      "bytes": 671,
+      "sha256": "c7c8d61abec713d86c2bcdb0dc31e54abac1d96edf8b8ccd25de9f9d5fdf3461"
+    },
+    {
+      "path": "worms.jpg",
+      "source_path": "core/src/main/assets/textures/worms.jpg",
+      "copied_path": "corpus/textures/worms.jpg",
+      "bytes": 111037,
+      "sha256": "43fc4b0c6a7254af067c26561c4fbbfcd776d513d17945a2d1439fbfe99ba4b1"
+    },
+    {
+      "path": "wrenches.jpg",
+      "source_path": "core/src/main/assets/textures/wrenches.jpg",
+      "copied_path": "corpus/textures/wrenches.jpg",
+      "bytes": 19738,
+      "sha256": "e6355e3fc9866bae4e0321c4fca38ede37384ff1d8a6aecda6d045ca9163d82a"
+    }
+  ],
+  "attribution": "ProjectM-TV attributes bundled presets/textures to Cream of the Crop, curated by Jason Fletcher (ISOSCELES), under CC0 1.0. Preserve original authors/filenames and LICENSES/CC0-1.0.txt.",
+  "validation": {
+    "copied_preset_hashes_match": true,
+    "copied_texture_hashes_match": true,
+    "rendering_performed": false,
+    "conversion_performed": false
+  }
+}

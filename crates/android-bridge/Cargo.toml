@@ -1,0 +1,28 @@
+[package]
+name = "preset-android"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+audio-analysis = { path = "../audio-analysis" }
+beat-authoring = { path = "../beat-authoring", default-features = false }
+effect-package = { path = "../effect-package" }
+effect-render = { path = "../effect-render" }
+effect-model = { path = "../effect-model" }
+effect-runtime = { path = "../effect-runtime" }
+anyhow.workspace = true
+wgpu.workspace = true
+pollster.workspace = true
+raw-window-handle.workspace = true
+image.workspace = true
+crossbeam-channel.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+libc = "0.2"
+
+[target.'cfg(target_os = "android")'.dependencies]
+jni.workspace = true

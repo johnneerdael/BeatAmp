@@ -1,0 +1,4 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:label="Milkbeat PCM proof" android:allowBackup="false" />
+    <instrumentation android:name=".PcmProof" android:targetPackage="nl.neerdael.milkbeat.debug" android:label="Controlled Milkbeat PCM source" />
+</manifest>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ProjectM-TV overlay palette adapted for Beatamp, LGPL-2.1, 2026-10-09. -->
+<resources>
+    <color name="overlay_panel">#F0101218</color>
+    <color name="overlay_stroke">#26FFFFFF</color>
+    <color name="overlay_focus">#2E66E0C2</color>
+    <color name="accent">#66E0C2</color>
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#CCFFFFFF</color>
+    <color name="text_tertiary">#A6FFFFFF</color>
+    <color name="divider">#26FFFFFF</color>
+    <color name="pill">#D9101218</color>
+</resources>

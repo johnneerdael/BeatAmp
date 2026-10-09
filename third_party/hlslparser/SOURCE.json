@@ -1,0 +1,36 @@
+{
+  "origin": "../Projectm-TV/third_party/projectm/vendor/hlslparser",
+  "license": "MIT (Unknown Worlds Entertainment, Inc.)",
+  "purpose": "declared offline legacy HLSL compiler dependency; no projectM renderer/evaluator source",
+  "files": {
+    "src/CodeWriter.cpp": "729fb1bc4a01950f5988f28abcb09b9a5d8eccfac9ea1bac47baf93cf5de9624",
+    "src/CodeWriter.h": "f9263e26921ee95afccefc270f4f103a9dd0b632c810c7292c17779e01eef775",
+    "src/Engine.cpp": "82989ff5b9adc512782539ddf1ec0179643458b14fe994ff2782525555de6dd3",
+    "src/Engine.h": "88c3a9da0d0ff4371a859f6e33b2c2df44e46088ff8b800f11b82f6c1dc55ed4",
+    "src/GLSLGenerator.cpp": "5c7c9d85b342c4a571f605802682a5969f13f4522160aa60ce7fe75366d4af64",
+    "src/GLSLGenerator.h": "81df14e659afc4b740d4951593eeb58f15fef678abe8d88ebbb807b090da633c",
+    "src/HLSLParser.cpp": "4a88f5b2f94a9ae114d94d1c033784392a99eff39f51154f7ab8cd6a69c8bf70",
+    "src/HLSLParser.h": "9ada3521ee02ea7f6fbe602f5df66853948e60731bcc57432635df9444a7872c",
+    "src/HLSLTokenizer.cpp": "b325a941b63331dcc4a122882118d7fa7461bd200828bf780bca19adfaae1638",
+    "src/HLSLTokenizer.h": "c19e697544e212cb9d0b742c16d3d2012dbd3a51d6598a6d0798bc8a405792f8",
+    "src/HLSLTree.cpp": "485d1df8799a5a276fa32af8a21106424a5787481af86637c2ff679240f47d09",
+    "src/HLSLTree.h": "1ab8d20e31145c1c4e7fc18920c6d7cdd3a232fb9b46a0a273fbe91e751928a1"
+  },
+  "local_deviations": {
+    "src/Engine.cpp": "Enable compiler diagnostics on stderr, plainly marked in the source."
+  },
+  "current_files": {
+    "src/CodeWriter.cpp": "729fb1bc4a01950f5988f28abcb09b9a5d8eccfac9ea1bac47baf93cf5de9624",
+    "src/CodeWriter.h": "f9263e26921ee95afccefc270f4f103a9dd0b632c810c7292c17779e01eef775",
+    "src/Engine.cpp": "d8947f2f44769a86cc4eb311226f8fad6625fc80a54c64ee97cc1f231e2dceba",
+    "src/Engine.h": "88c3a9da0d0ff4371a859f6e33b2c2df44e46088ff8b800f11b82f6c1dc55ed4",
+    "src/GLSLGenerator.cpp": "5c7c9d85b342c4a571f605802682a5969f13f4522160aa60ce7fe75366d4af64",
+    "src/GLSLGenerator.h": "81df14e659afc4b740d4951593eeb58f15fef678abe8d88ebbb807b090da633c",
+    "src/HLSLParser.cpp": "4a88f5b2f94a9ae114d94d1c033784392a99eff39f51154f7ab8cd6a69c8bf70",
+    "src/HLSLParser.h": "9ada3521ee02ea7f6fbe602f5df66853948e60731bcc57432635df9444a7872c",
+    "src/HLSLTokenizer.cpp": "b325a941b63331dcc4a122882118d7fa7461bd200828bf780bca19adfaae1638",
+    "src/HLSLTokenizer.h": "c19e697544e212cb9d0b742c16d3d2012dbd3a51d6598a6d0798bc8a405792f8",
+    "src/HLSLTree.cpp": "485d1df8799a5a276fa32af8a21106424a5787481af86637c2ff679240f47d09",
+    "src/HLSLTree.h": "1ab8d20e31145c1c4e7fc18920c6d7cdd3a232fb9b46a0a273fbe91e751928a1"
+  }
+}

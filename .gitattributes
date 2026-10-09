@@ -1,0 +1,5 @@
+# Preserve frozen source bytes and upstream source identities on every checkout.
+corpus/** -text
+platform/android/reference/src/main/assets/presets/** -text
+third_party/** -text
+platform/android/gradlew.bat -text

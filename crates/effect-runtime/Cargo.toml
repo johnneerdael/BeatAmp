@@ -1,0 +1,10 @@
+[package]
+name = "effect-runtime"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+[dependencies]
+effect-model = { path = "../effect-model" }
+anyhow.workspace = true
+rand_mt.workspace = true
+serde.workspace = true

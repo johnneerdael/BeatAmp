@@ -1,0 +1,23 @@
+[package]
+name = "effect-render"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+[dependencies]
+effect-model = { path = "../effect-model" }
+effect-package = { path = "../effect-package" }
+effect-runtime = { path = "../effect-runtime" }
+anyhow.workspace = true
+wgpu.workspace = true
+bytemuck.workspace = true
+pollster.workspace = true
+image.workspace = true
+serde.workspace = true
+rand_mt.workspace = true
+naga.workspace = true
+half = "2.7"
+[dev-dependencies]
+milk-compile = { path = "../milk-compile" }
+milk-import = { path = "../milk-import" }
+serde_json.workspace = true
+sha2.workspace = true

@@ -1,0 +1,46 @@
+{
+  "format": "beat",
+  "version": 1,
+  "name": "Native spectral field \u2014 package fixture",
+  "author": "Preset Convertor",
+  "notices": [
+    "Independently authored WGSL fixture; CC0-1.0. No MilkDrop or ProjectM engine source copied."
+  ],
+  "required_features": [],
+  "quality": "native",
+  "output": "final",
+  "assets": {
+    "field": {
+      "path": "field.wgsl",
+      "sha256": "b9a09031008a2669bf8071af6da27133a33605c7c3eade5ba930f6f3f98840e4",
+      "kind": "wgsl",
+      "license": "CC0-1.0"
+    }
+  },
+  "parameters": {},
+  "resources": {
+    "final": {
+      "kind": "texture",
+      "format": "rgba8unorm",
+      "extent": {
+        "mode": "native"
+      },
+      "history": false,
+      "role": "output",
+      "mips": 1,
+      "color_space": "linear",
+      "alpha": "opaque"
+    }
+  },
+  "passes": [
+    {
+      "id": "field",
+      "kind": "render",
+      "program": "field",
+      "reads": [],
+      "writes": [
+        "final"
+      ]
+    }
+  ]
+}

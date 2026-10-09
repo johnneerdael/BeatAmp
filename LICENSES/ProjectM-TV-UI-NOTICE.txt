@@ -1,0 +1,19 @@
+Beatamp Android UI attribution
+
+UI portions adapted from https://github.com/johnneerdael/ProjectM-TV:
+- OptionRow.java (TV focus, option stepping, action rows)
+- overlay colors, spacing, typography, panel/pill/button backgrounds
+- previous/next/shuffle vector icons
+- immersive panel composition and remote-navigation conventions
+
+The upstream repository distributes these sources under GNU LGPL version 2.1
+in its LICENSE. Preserve that license in LICENSES/LGPL-2.1.txt. Original source
+and authorship remain attributable to the ProjectM-TV contributors; no
+additional individual copyright assertion is inferred from files without one.
+
+Modified 2026-10-09 for Beatamp by its contributors: package namespace,
+continuous stereo playback capture actions, measured renderer state,
+accessibility, responsive spacing and native effect controls. Corresponding
+modifiable sources are in platform/android/app/src/main and published with
+Beatamp. This reuse includes UI only; Beatamp does not link the ProjectM engine
+or use Android Visualizer snapshots.

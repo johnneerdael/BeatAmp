@@ -1,0 +1,25 @@
+[package]
+name = "beat-authoring"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+
+[features]
+default = ["offline"]
+offline = ["dep:serde", "dep:serde_json", "dep:sha2", "dep:wgpu-types", "dep:effect-model", "dep:effect-package", "dep:milk-import"]
+
+[dependencies]
+anyhow.workspace = true
+serde = { workspace = true, optional = true }
+serde_json = { workspace = true, optional = true }
+sha2 = { workspace = true, optional = true }
+wgpu-types = { workspace = true, optional = true }
+effect-model = { path = "../effect-model", optional = true }
+effect-package = { path = "../effect-package", optional = true }
+audio-analysis = { path = "../audio-analysis" }
+milk-import = { path = "../milk-import", optional = true }
+
+[dev-dependencies]
+naga.workspace = true
+effect-render = { path = "../effect-render" }
+pollster.workspace = true

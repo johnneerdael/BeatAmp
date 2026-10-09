@@ -1,0 +1,14 @@
+{
+  "population": 9606,
+  "sample": 100,
+  "seed": "42f428dc26a55bdd24b5d74c0db1c0f4",
+  "source_git_head": "36db66310e75cf640122f3559aca0daad25abcba",
+  "preset_bytes": 1194530,
+  "textures": 74,
+  "texture_bytes": 8022243,
+  "shader_presets": 87,
+  "custom_wave_presets": 51,
+  "custom_shape_presets": 61,
+  "rand_presets": 65,
+  "texsize_presets": 78
+}
